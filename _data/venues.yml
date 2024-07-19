@@ -7,3 +7,11 @@
 
 "Vision":
   color: "#009f36"
+
+"SEKE":
+  url: https://ksiresearch.org/seke/seke24.html
+  color: "#8a8a5c"
+
+"E-JC":
+  url: https://www.combinatorics.org/
+  color: "#ff9900
