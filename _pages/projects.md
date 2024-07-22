@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing collection of project pages, open source softwares, libraries and the like.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
@@ -64,7 +64,7 @@ horizontal: false
 {% endif %}
 </div>
 
-## GitHub users
+## GitHub Profile
 
 {% if site.data.repositories.github_users %}
 
