@@ -34,33 +34,33 @@
     url: https://en.wikipedia.org/wiki/Max_Planck
 
 "ishan":
- - firstname: ["Ishan", "Joshi"]
-   url: https://www.linkedin.com/in/ishanjoshi6286
+  - firstname: ["Ishan", "Joshi"]
+    url: https://www.linkedin.com/in/ishanjoshi6286
 
 "bharat":
- - firstname: ["Bharat", "Mukkavalli"]
-   url: https://in.linkedin.com/in/bharat-chandra-mukkavalli-138687196
+  - firstname: ["Bharat", "Mukkavalli"]
+    url: https://in.linkedin.com/in/bharat-chandra-mukkavalli-138687196
 
 "brahadeesh":
- - firstname: ["Brahadeesh", "Sankarnarayanan"]
-   url: https://sites.google.com/view/brahadeesh-sankarnarayanan/home?authuser=0
+  - firstname: ["Brahadeesh", "Sankarnarayanan"]
+    url: https://sites.google.com/view/brahadeesh-sankarnarayanan/home?authuser=0
 
 "lei":
- - firstname: ["Lei", "Zhang"]
-   url: https://informationsystems.umbc.edu/home/faculty-and-staff/new-faculty-spotlights/lei-zhang-2/
+  - firstname: ["Lei", "Zhang"]
+    url: https://informationsystems.umbc.edu/home/faculty-and-staff/new-faculty-spotlights/lei-zhang-2/
 
 "rogers":
- - firstname: ["Rogers", "Mathew"]
-   url: https://people.iith.ac.in/rogers/
+  - firstname: ["Rogers", "Mathew"]
+    url: https://people.iith.ac.in/rogers/
 
 "Panduranga":
- - firstname: ["Panduranga", "M.", "V.", M.V.", "Rao"]
-   url: https://www.iith.ac.in/cse/mvp/
+  - firstname: ["Panduranga", "M.", "V.", M.V.", "Rao"]
+    url: https://www.iith.ac.in/cse/mvp/
 
 "niranjan":
- - firstname: ["Niranjan", "Balachandran"]
-   url: https://homepages.iitb.ac.in/~niranj/
+  - firstname: ["Niranjan", "Balachandran"]
+    url: https://homepages.iitb.ac.in/~niranj/
 
 "srimanta":
-- firstname: ["Srimanta", "Bhattacharya"]
-  url: https://iitpkd.ac.in/people/srimanta
+  - firstname: ["Srimanta", "Bhattacharya"]
+    url: https://iitpkd.ac.in/people/srimanta
