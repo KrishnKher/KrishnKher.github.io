@@ -32,3 +32,35 @@
 "planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"ishan":
+ - firstname: ["Ishan"]
+   url: https://www.linkedin.com/in/ishanjoshi6286
+
+"bharat":
+ - firstname: ["Bharat"]
+   url: https://in.linkedin.com/in/bharat-chandra-mukkavalli-138687196
+
+"brahadeesh":
+ - firstname: ["Brahadeesh"]
+   url: https://sites.google.com/view/brahadeesh-sankarnarayanan/home?authuser=0
+
+"lei":
+ - firstname: ["Lei"]
+   url: https://informationsystems.umbc.edu/home/faculty-and-staff/new-faculty-spotlights/lei-zhang-2/
+
+"rogers":
+ - firstname: ["Rogers"]
+   url: https://people.iith.ac.in/rogers/
+
+"Panduranga":
+ - firstname: ["Panduranga"]
+   url: https://www.iith.ac.in/cse/mvp/
+
+"niranjan":
+ - firstname: ["Niranjan"]
+   url: https://homepages.iitb.ac.in/~niranj/
+
+"srimanta":
+- firstname: ["Srimanta"]
+  url: https://iitpkd.ac.in/people/srimanta
