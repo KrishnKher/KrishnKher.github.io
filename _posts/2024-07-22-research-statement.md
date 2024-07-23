@@ -1,13 +1,14 @@
 ---
 layout: post
-title: a post with bibliography
+title: Research Statement
 date: 2024-07-23 16:00:00-0400
-description: an example of a blog post with bibliography
-tags: formatting bib
-categories: sample-posts
+description: An exhaustive list of research directions of particular interest
+tags: research-statement, research-proposal
+categories: official
 giscus_comments: true
 related_posts: false
 related_publications: true
+featured: true
 ---
 
 This post shows how to add bibliography to simple blog posts. We support every citation style that [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) does. That means simple citation like {% cite einstein1950meaning %}, multiple citations like {% cite einstein1950meaning einstein1905movement %}, long references like {% reference einstein1905movement %} or also quotes:
@@ -21,9 +22,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing.
 
 If you would like something more academic, check the [distill style post]({% post_url 2018-12-22-distill %}).				
 
-### On the Role of Computation, Logic, \& Memory in Learning
+#### On the Role of Computation, Logic, \& Memory in Learning
 
-## Prelude \label{sec:pre}
+### Prelude \label{sec:pre}
 "If it sees like a human, converses like a human, and locomotes like a human, then it could very well \emph{not} be a human!" This arguably summarizes the performance of modern day machine learning models and algorithms on so-called System-I systems \cite{10.5555/3295222.3295288, goyal2022inductive}, such as deep CNNs \cite{10.5555/2999134.2999257, 7298594, 7780459}, N-gram models \cite{brown-etal-1992-class, bird-loper-2004-nltk, 10.5555/2999792.2999959}, Hidden Markov Models \cite{8187420, pmlr-v2-gruber07a} (e.g. for speech recognition \cite{graves2013speech}), etc. In certain tasks, such machines appear to even outperform human capabilities, such as in arithmetic / logical computations \cite{6448961, 10.5555/3327757.3327899}, raw memory storage and retrieval, etc.  However, even given the slightly more realistic goal of only mimicking (and not duplicating!) cognitive abilities of humans, we are understandably far off on System-II tasks that involve reasoning, planning, long term decision making, etc. These cannot be merely achieved by scaling up resources in systems that purely compute System-I tasks. In this connection, we suggest Figure \ref{fig:1} as an abstract, simple, and helpful mental picture of task allocation within the human cognitive system, and especially as a roadmap for different research directions we envisage in Section \ref{sec:RA}, based on work in the literature. We refer to this as the "Personalized Cognitive Assistant" model (or PCA for short) hereafter. 
 
 \begin{figure}[h]
@@ -58,14 +59,14 @@ steer task execution beyond conscious user intent input to the system. Thus, we 
 that explicitly involve freewill.
  Our automation solely concerns components that require computational resources for computing quantities governed by perceived environment of a user and logical rules that comply with the user's intent. This ties in line with research and societal values that advocate for the democratization of responsible AI for social good.
 
-## Research Agendra \label{sec:RA}
-# Primary \label{subsec:primary}
+### Research Agendra \label{sec:RA}
+## Primary \label{subsec:primary}
 In this section, we elaborate on the modules presented in Figure \ref{fig:1} in a roughly bottom-up manner, as we describe the salient questions that deserve dedicated research efforts.
 \begin{itemize}
     \item \textbf{Energy Transducers}: As far as receiving and emitting sensory input/output is concerned, we primarily concern ourselves with downstream applications concerning vision, natural language, and to a lesser extent auditory media such as music (those with annotated lyrics and even otherwise; infact, the latter ones could serve as excellent applications for all the modules of the model limned in Figure \ref{fig:1}). As indicated earlier, excellent research has been done in solving visual and linguistic tasks \cite{Sarker2021DeepLA}, especially through modern deep learning approaches \cite{NIPS2012_c399862d, NIPS2017_3f5ee243}.
     Hence we do not focus on offering novel contributions for this module. As an application, the relatively novel item we consider is 'Classical Indian Music' generation and identification, as it involves interacting with multiple modules depicted in Figure \ref{fig:1}, as we hope to convince the reader in the following paragraphs.
     \item \textbf{Sea of Impressions}: Models storage of both, raw and processed data, but is usually not capable of reasoning or performing complex computations. By raw data, we mean rudimentary data storage, such as in databases or hash tables \cite{6912180}, whereas by processed data we mean data that has been reduced or summarized or distributed by processing directed by the \emph{central intelligence unit}. 
-    \subsubsection{Associative Memories}\label{subsubsec:am}
+    # Associative Memories \label{subsubsec:am}
     Mimicking the processing of electric signals from various sensory input by the brain \cite{STERIADE2005101}, we propose to model such a memory using associative memories, which has been vastly studied \cite{iatropoulos2022kernel, NIPS2016_eaae339c, salvatori2021associative, pham2022generative}. Associative memory models typically comprise of:
     \begin{enumerate}
         \item \textcolor{orange}{A memory vault}: this is a structure that actually stores memories, like a neural network 
@@ -73,10 +74,10 @@ In this section, we elaborate on the modules presented in Figure \ref{fig:1} in 
         \item \textcolor{orange}{Optimization operators}: these operators are defined with respect to the energy function for different tasks such as reading, writing, forgetting, updating, etc.
     \end{enumerate}
     Despite ample work in the area, a number of questions remain unanswered. Can an associative memory be designed to retrieve the $k$-nearest memory patterns for a given query pattern? Conventional designs usually focus on the case $k=1$, \cite{salvatori2021associative}. Recent work by \cite{davydov2023retrieving} aims to tackle this problem, but is arguably far from settling this question completely, as it deals only with Hopfield-style networks and does not scale well in its current state. In the same vein we ask, "Can associative memories be used to store variable length patterns, without incorporating artificial padding to make all patterns of equal length?" We would like to avoid adding padding to make the usage of memory more efficient. This could notably have a significant impact on length generalization in Transformers \cite{51525, zhou2024transformers}. \par
-    \subsubsection{Generalized Energy Based Models}\label{subsubsec:gebm}
+    # Generalized Energy Based Models \label{subsubsec:gebm}
     On this note, it is interesting to understand the role of memory in models such as RNNs, MLPs, Transformers, etc. as nicely presented in \cite{deletang2023neural}. However, a number of important questions still remain unanswered, such as theoretically investigating the role of memory in such models, building generative models that have an extendable memory, and adapting such extendable memories to continual learning settings are amongst some of these important ones that deserve attention. Though \cite{yoo2022bayespcn} partially addresses the last question, it does not handle non-i.i.d. settings, and particularly does not work well for queries that are significantly different from the patterns it has memorized. We are interested in designing energy-based models that can continually accommodate patterns as local minima with wide basins of attraction by automatically registering new patterns that are significantly different from previously memorized patterns. This brings us to ask, "Can we design distributed associative memories that store fragments of the patterns instead of the patterns directly, such that inference involves appropriately joining these fragments to produce the queried patterns?" Notice how such a memory would be highly resource-efficient and could enable registering a new pattern only when the fragments that compose it or the order in which they are composed is significantly different from existing patterns. \par
 
-    \subsubsection{Alignment of Associative Memories}\label{subsubsec:align_am}
+    # Alignment of Associative Memories \label{subsubsec:align_am}
     The work of \cite{salvatori2021associative, yoo2022bayespcn} also motivates a very interesting use case for Predictive Coding Networks, in the broader setup of our PCA model. This is highlighted by the unidirectional arrow from \emph{SI} to the \emph{user}, as this signifies memories being continually suggested to the user, based on the user intent. Now while "intent" is a debatable philosophical concept, we focus on receiving user intent in various forms such language, recordings of focal point tracking \cite{ibrayev2023exploring}, recordings of fMRI signals \cite{brainsci12020228}, etc. The simplest of these to parse is arguably intent received through linguistic media. We elaborate on this in the \emph{AR} module section. 
 
     Another interesting question to ask could be, "Can we design an associative memory that mimicks \emph{semantic memory} \cite{Kumar2020SemanticMA}?" \cite{salvatori2024associative} works in this direction, but doesn't seem to exhibit evidence for multimodal retrieval. Ideally, we would like to be able to assign semantics to memories in a cross-modal fashion. 
