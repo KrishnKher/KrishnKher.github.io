@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Research Statement
-date: 2024-07-23 16:00:00-0400
+date: 2024-07-22 16:00:00-0400
 description: An exhaustive list of research directions of particular interest
 tags: research-statement, research-proposal
 categories: official
