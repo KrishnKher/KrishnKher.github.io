@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Serving as (sub-) reviewer at NeurIPS'24.
+Serving as a (sub-) reviewer at NeurIPS'24.

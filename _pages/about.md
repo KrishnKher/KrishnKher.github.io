@@ -9,8 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>What profiteth does a man gain, if he learns the world, </p>
-    <p>yet forfeits knowledge of his soul?</p>
+    <p>What doth it profit a man to gain the world, yet forfeit the knowledge of his soul?</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
