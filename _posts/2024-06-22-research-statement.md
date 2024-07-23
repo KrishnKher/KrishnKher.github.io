@@ -5,7 +5,7 @@ date: 2024-06-22 16:00:00-0400
 description: An exhaustive list of research directions of particular interest
 tags: research-statement, research-proposal
 categories: official
-giscus_comments: true
+giscus_comments: false
 related_posts: false
 related_publications: true
 featured: true
