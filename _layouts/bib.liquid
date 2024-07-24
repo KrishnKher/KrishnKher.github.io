@@ -1,9 +1,9 @@
 ---
 ---
 {% assign bolor = null %}
-{%- if entry.highlight -%}
-  {% assign bolor = "#b3ffff"}
-{%- endif -%}
+{% if entry.highlight %}
+  {% assign bolor = "#b3ffff" %}
+{% endif %}
 <div class="row" style="background-color:{{bolor}}">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
