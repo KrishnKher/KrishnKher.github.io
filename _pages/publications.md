@@ -8,7 +8,7 @@ description: >
 
 nav: false
 nav_order: 2
-display_categories: [Machine Learning, Systems, TCS/Math]
+display_categories: [Machine Learning, TCS/Math, Systems]
 ---
 
 <!-- _pages/publications.md -->
@@ -20,5 +20,18 @@ display_categories: [Machine Learning, Systems, TCS/Math]
 <div class="publications">
 
 {% bibliography --file papers %}
+
+{% if site.enable_project_categories and page.display_categories %}
+  <!-- Display categorized projects -->
+  {% for category in page.display_categories %}
+  <a id="{{ category }}" href=".#{{ category }}">
+    <h2 class="category">{{ category }}</h2>
+  </a>
+  {% assign categorized_publications = site.publications | where: "category", category %}
+  {% assign sorted_publications = categorized_publications | sort: "importance" %}
+
+   {% for publication in sorted_publications %}
+      {% include bib.liquid %}
+    {% endfor %}
 
 </div>
