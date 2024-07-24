@@ -34,5 +34,6 @@ display_categories: [Machine Learning, TCS/Math, Systems]
       {% include bib.liquid %}
     {% endfor %}
     {% endfor %}
+{%endif}
 
 </div>
