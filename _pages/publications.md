@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description: >
     <p>Only selected manuscripts/publications have been displayed here. For a list of all acknowledged works that I have participated in, please check my Google Scholar/dblp profile(s). <br>
-    <b>Note</b>: Publications with a <span>"†"</span> symbol appended to the immediate right of my name indicate my first (co-)authorship therein.</p>
+    <b>Note</b>: Publications with a <span>\"†\"</span> symbol appended to the immediate right of my name indicate my first (co-)authorship therein.</p>
 
 nav: false
 nav_order: 2
@@ -32,6 +32,7 @@ display_categories: [Machine Learning, TCS/Math, Systems]
 
    {% for publication in sorted_publications %}
       {% include bib.liquid %}
+    {% endfor %}
     {% endfor %}
 
 </div>
