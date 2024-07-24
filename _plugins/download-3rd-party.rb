@@ -5,21 +5,9 @@ Jekyll::Hooks.register :site, :after_init do |site|
   require 'nokogiri'
   require 'open-uri'
   require 'uri'
-  require 'latex/decode'
 
   font_file_types = ['otf', 'ttf', 'woff', 'woff2']
   image_file_types = ['.gif', '.jpg', '.jpeg', '.png', '.webp']
-
-  # Disable the Math module of latex-decode as it interferes with MathJax
-  module LaTeX
-    module Decode
-      class Maths < Decoder
-        def self.decode! (string)
-          string
-        end
-      end
-    end
-  end
 
   def download_and_change_rule_set_url(rule_set, rule, dest, dirname, config, file_types)
     # check if the rule has a url
