@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of project pages, open source softwares, libraries and the like.
+description: A growing collection of project pages, open source softwares, libraries and the like. To be updated SOON!
 nav: true
 nav_order: 3
 display_categories: [work, fun]
