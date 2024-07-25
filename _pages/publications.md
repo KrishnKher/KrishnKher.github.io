@@ -28,9 +28,7 @@ display_categories: [Machine Learning, TCS/Math, Systems]
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_publications = bibliography | where: "category", category %}
-  {% assign sorted_publications = categorized_publications | sort: "importance" %}
-
-   {% for publication in sorted_publications %}
+   {% for publication in categorized_publications %}
       {% include bib.liquid %}
     {% endfor %}
     {% endfor %}
