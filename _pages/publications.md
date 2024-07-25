@@ -27,7 +27,7 @@ display_categories: [Machine Learning, TCS/Math, Systems]
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_publications = site.publications | where: "category", category %}
+  {% assign categorized_publications = site.bibliography | where: "category", category %}
   {% assign sorted_publications = categorized_publications | sort: "importance" %}
 
    {% for publication in sorted_publications %}
