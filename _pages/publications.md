@@ -23,22 +23,22 @@ display_categories: [Machine Learning, TCS/Math, Systems, Miscellaneous]
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {%- for y in page.y}
-    {%- capture citecount -%}
-    {%- bibliography_count -f {{site.scholar.bibliography}} -q @*[year={{y}} && category={{category}}] -%}
-    {%- endcapture -%}
+    <a id="{{ category }}" href=".#{{ category }}">
+        <h2 class="category">{{ category }}</h2>
+    </a>
+    {%- for y in page.y}
+        {%- capture citecount -%}
+        {%- bibliography_count -f {{site.scholar.bibliography}} -q @*[year={{y}} && category={{category}}] -%}
+        {%- endcapture -%}
 
-    {%- if citecount !="0" %}
+        {%- if citecount !="0" %}
 
-      <h2 class="year">{{y}}</h2>
-      {% bibliography -f {{site.scholar.bibliography}} -q @*[year={{y}} && category={{category}}] %}
-
-    {%- endif -%}
-
-  {%- endfor %}
-
-{%- endfor %}
+        <h2 class="year">{{y}}</h2>
+        {% bibliography -f {{site.scholar.bibliography}} -q @*[year={{y}} && category={{category}}] %}
+        {%- endif -%}
+    {%- endfor %}
+   {%- endfor %}
+{% else %}
+{% bibliography --file papers %}
+{% endif %}
 </div>
