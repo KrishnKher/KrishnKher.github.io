@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: distill
 title: Research Statement
 date: 2024-06-22 16:00:00-0400
 description: An exhaustive list of research directions of particular interest
@@ -12,7 +12,7 @@ featured: true
 bibliography: others.bib
 ---
 
-This post shows how to add bibliography to simple blog posts. We support every citation style that [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) does. That means simple citation like {% cite einstein1950meaning %}, multiple citations like {% cite einstein1950meaning einstein1905movement %}, long references like {% reference einstein1905movement %} or also quotes:
+This post shows how to add bibliography to simple blog posts. We support every citation style that [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) does. That means simple citation like {% cite einstein1950meaning %}, multiple citations like {% cite einstein1905photoelectriceffect einstein1905movement %}, long references like {% reference einstein1905movement %} or also quotes:
 
 {% quote einstein1905electrodynamics %}
 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
