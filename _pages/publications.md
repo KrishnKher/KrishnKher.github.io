@@ -27,13 +27,12 @@ display_categories: [Machine Learning, TCS/Math, Systems, Miscellaneous]
         <h2 class="category">{{ category }}</h2>
     </a>
         {%- capture citecount -%}
-        {%- bibliography_count -f {{site.scholar.bibliography}} -q @*[year={{y}} && category={{category}}] -%}
+        {%- bibliography_count -f {{site.scholar.bibliography}} -q @*[category={{category}}] -%}
         {%- endcapture -%}
 
         {%- if citecount !="0" %}
 
-        <h2 class="year">{{y}}</h2>
-        {% bibliography -f {{site.scholar.bibliography}} -q @*[year={{y}} && category={{category}}] %}
+        {% bibliography -f {{site.scholar.bibliography}} -q @*[category={{category}}] %}
         {%- endif -%}
   {%- endfor %}
 {% else %}
