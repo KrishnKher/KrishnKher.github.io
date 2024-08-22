@@ -315,7 +315,7 @@ scholar:
   last_name: [Kher]
   first_name: [Krishn V., KV.]
 
-  style: chicago
+  style: apa
   locale: en
 
   source: /_bibliography/
