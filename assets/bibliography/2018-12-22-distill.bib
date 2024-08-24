@@ -6,6 +6,51 @@
   url={https://arxiv.org/pdf/1502.04623.pdf}
 }
 
+@inproceedings{10.5555/2999134.2999257,
+author = {Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E.},
+title = {ImageNet classification with deep convolutional neural networks},
+year = {2012},
+publisher = {Curran Associates Inc.},
+address = {Red Hook, NY, USA},
+abstract = {We trained a large, deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates of 37.5\% and 17.0\% which is considerably better than the previous state-of-the-art. The neural network, which has 60 million parameters and 650,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and three fully-connected layers with a final 1000-way softmax. To make training faster, we used non-saturating neurons and a very efficient GPU implementation of the convolution operation. To reduce overriding in the fully-connected layers we employed a recently-developed regularization method called "dropout" that proved to be very effective. We also entered a variant of this model in the ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3\%, compared to 26.2\% achieved by the second-best entry.},
+booktitle = {Proceedings of the 25th International Conference on Neural Information Processing Systems - Volume 1},
+pages = {1097–1105},
+numpages = {9},
+location = {Lake Tahoe, Nevada},
+series = {NIPS'12}
+}
+
+@INPROCEEDINGS{7298594,
+  author={Szegedy, Christian and Wei Liu and Yangqing Jia and Sermanet, Pierre and Reed, Scott and Anguelov, Dragomir and Erhan, Dumitru and Vanhoucke, Vincent and Rabinovich, Andrew},
+  booktitle={2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+  title={Going deeper with convolutions}, 
+  year={2015},
+  volume={},
+  number={},
+  pages={1-9},
+  keywords={Computer architecture;Convolutional codes;Sparse matrices;Neural networks;Visualization;Object detection;Computer vision},
+  doi={10.1109/CVPR.2015.7298594}}
+
+@INPROCEEDINGS{7780459,
+  author={He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  booktitle={2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+  title={Deep Residual Learning for Image Recognition}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={770-778},
+  keywords={Training;Degradation;Complexity theory;Image recognition;Neural networks;Visualization;Image segmentation},
+  doi={10.1109/CVPR.2016.90}}
+
+@misc{graves2013speech,
+      title={Speech Recognition with Deep Recurrent Neural Networks}, 
+      author={Alex Graves and Abdel-rahman Mohamed and Geoffrey Hinton},
+      year={2013},
+      eprint={1303.5778},
+      archivePrefix={arXiv},
+      primaryClass={cs.NE}
+}
+
 @article{brown-etal-1992-class,
     title = "Class-Based \textit{n}-gram Models of Natural Language",
     author = "Brown, Peter F.  and
@@ -19,4 +64,1751 @@
     year = "1992",
     url = "https://aclanthology.org/J92-4003",
     pages = "467--480",
+}
+
+@inproceedings{bird-loper-2004-nltk,
+    title = "{NLTK}: The Natural Language Toolkit",
+    author = "Bird, Steven  and
+      Loper, Edward",
+    booktitle = "Proceedings of the {ACL} Interactive Poster and Demonstration Sessions",
+    month = jul,
+    year = "2004",
+    address = "Barcelona, Spain",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P04-3031",
+    pages = "214--217",
+}
+
+@inproceedings{10.5555/2999792.2999959,
+author = {Mikolov, Tomas and Sutskever, Ilya and Chen, Kai and Corrado, Greg and Dean, Jeffrey},
+title = {Distributed representations of words and phrases and their compositionality},
+year = {2013},
+publisher = {Curran Associates Inc.},
+address = {Red Hook, NY, USA},
+abstract = {The recently introduced continuous Skip-gram model is an efficient method for learning high-quality distributed vector representations that capture a large number of precise syntactic and semantic word relationships. In this paper we present several extensions that improve both the quality of the vectors and the training speed. By subsampling of the frequent words we obtain significant speedup and also learn more regular word representations. We also describe a simple alternative to the hierarchical softmax called negative sampling.An inherent limitation of word representations is their indifference to word order and their inability to represent idiomatic phrases. For example, the meanings of "Canada" and "Air" cannot be easily combined to obtain "Air Canada". Motivated by this example, we present a simple method for finding phrases in text, and show that learning good vector representations for millions of phrases is possible.},
+booktitle = {Proceedings of the 26th International Conference on Neural Information Processing Systems - Volume 2},
+pages = {3111–3119},
+numpages = {9},
+location = {Lake Tahoe, Nevada},
+series = {NIPS'13}
+}
+
+@BOOK{8187420,
+  author={Gales, Mark and Young, Steve},
+  booktitle={Application of Hidden Markov Models in Speech Recognition},
+  year={2008},
+  volume={},
+  number={},
+  pages={},
+  keywords={Electrical and Electronic Engineering;Machine Learning},
+  doi={10.1561/2000000004}}
+
+@inproceedings{10.5555/3295222.3295288,
+author = {Anthony, Thomas and Tian, Zheng and Barber, David},
+title = {Thinking fast and slow with deep learning and tree search},
+year = {2017},
+isbn = {9781510860964},
+publisher = {Curran Associates Inc.},
+address = {Red Hook, NY, USA},
+abstract = {Sequential decision making problems, such as structured prediction, robotic control, and game playing, require a combination of planning policies and generalisation of those plans. In this paper, we present Expert Iteration (EXIT), a novel reinforcement learning algorithm which decomposes the problem into separate planning and generalisation tasks. Planning new policies is performed by tree search, while a deep neural network generalises those plans. Subsequently, tree search is improved by using the neural network policy to guide search, increasing the strength of new plans. In contrast, standard deep Reinforcement Learning algorithms rely on a neural network not only to generalise plans, but to discover them too. We show that EXIT outperforms REINFORCE for training a neural network to play the board game Hex, and our final tree search agent, trained tabula rasa, defeats MOHEX 1.0, the most recent Olympiad Champion player to be publicly released.},
+booktitle = {Proceedings of the 31st International Conference on Neural Information Processing Systems},
+pages = {5366–5376},
+numpages = {11},
+location = {Long Beach, California, USA},
+series = {NIPS'17}
+}
+
+@misc{goyal2022inductive,
+      title={Inductive Biases for Deep Learning of Higher-Level Cognition}, 
+      author={Anirudh Goyal and Yoshua Bengio},
+      year={2022},
+      eprint={2011.15091},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@InProceedings{pmlr-v2-gruber07a,
+  title = 	 {Hidden Topic Markov Models},
+  author = 	 {Gruber, Amit and Weiss, Yair and Rosen-Zvi, Michal},
+  booktitle = 	 {Proceedings of the Eleventh International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {163--170},
+  year = 	 {2007},
+  editor = 	 {Meila, Marina and Shen, Xiaotong},
+  volume = 	 {2},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {San Juan, Puerto Rico},
+  month = 	 {21--24 Mar},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v2/gruber07a/gruber07a.pdf},
+  url = 	 {https://proceedings.mlr.press/v2/gruber07a.html},
+  abstract = 	 {Algorithms such as Latent Dirichlet Allocation (LDA) have achieved significant progress in modeling word document relationships. These algorithms assume each word in the document was generated by a hidden topic and explicitly model the word distribution of each topic as well as the prior distribution over topics in the document. Given these parameters, the topics of all words in the same document are assumed to be independent. In this paper, we propose modeling the topics of words in the document as a Markov chain. Specifically, we assume that all words in the same sentence have the same topic, and successive sentences are more likely to have the same topics. Since the topics are hidden, this leads to using the well-known tools of Hidden Markov Models for learning and inference. We show that incorporating this dependency allows us to learn better topics and to disambiguate words that can belong to different topics. Quantitatively, we show that we obtain better perplexity in modeling documents with only a modest increase in learning and inference complexity.}
+}
+
+@inproceedings{10.5555/3327757.3327899,
+author = {Trask, Andrew and Hill, Felix and Reed, Scott and Rae, Jack and Dyer, Chris and Blunsom, Phil},
+title = {Neural arithmetic logic units},
+year = {2018},
+publisher = {Curran Associates Inc.},
+address = {Red Hook, NY, USA},
+abstract = {Neural networks can learn to represent and manipulate numerical information, but they seldom generalize well outside of the range of numerical values encountered during training. To encourage more systematic numerical extrapolation, we propose an architecture that represents numerical quantities as linear activations which are manipulated using primitive arithmetic operators, controlled by learned gates. We call this module a neural arithmetic logic unit (NALU), by analogy to the arithmetic logic unit in traditional processors. Experiments show that NALU-enhanced neural networks can learn to track time, perform arithmetic over images of numbers, translate numerical language into real-valued scalars, execute computer code, and count objects in images. In contrast to conventional architectures, we obtain substantially better generalization both inside and outside of the range of numerical values encountered during training, often extrapolating orders of magnitude beyond trained numerical ranges.},
+booktitle = {Proceedings of the 32nd International Conference on Neural Information Processing Systems},
+pages = {8046–8055},
+numpages = {10},
+location = {Montr\'{e}al, Canada},
+series = {NIPS'18}
+}
+
+@inproceedings{
+davydov2023retrieving,
+title={Retrieving \$k\$-Nearest Memories with Modern Hopfield Networks},
+author={Alexander Davydov and Sean Jaffe and Ambuj Singh and Francesco Bullo},
+booktitle={Associative Memory {\&} Hopfield Networks in 2023},
+year={2023},
+url={https://openreview.net/forum?id=bNBMnQXRJU}
+}
+
+@inproceedings{51525,title	= {Exploring Length Generalization in Large Language Models},author	= {Cem Anil and Yuhuai Wu and Anders Andreassen and Aitor Lewkowycz and Vedant Misra and Vinay Venkatesh Ramasesh and Ambrose Slone and Guy Gur-Ari and Ethan S Dyer and Behnam Neyshabur},year	= {2022},URL	= {https://arxiv.org/abs/2207.04901},booktitle	= {NeurIPS Oral}}
+
+@misc{zhou2024transformers,
+      title={Transformers Can Achieve Length Generalization But Not Robustly}, 
+      author={Yongchao Zhou and Uri Alon and Xinyun Chen and Xuezhi Wang and Rishabh Agarwal and Denny Zhou},
+      year={2024},
+      eprint={2402.09371},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@inproceedings{
+yoo2022bayespcn,
+title={Bayes{PCN}: A Continually Learnable Predictive Coding Associative Memory},
+author={Jinsoo Yoo and Frank Wood},
+booktitle={Advances in Neural Information Processing Systems},
+editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+year={2022},
+url={https://openreview.net/forum?id=9cPDqh9fQMy}
+}
+
+@article{Kumar2020SemanticMA,
+  title={Semantic memory: A review of methods, models, and current challenges},
+  author={Abhilasha Ashok Kumar},
+  journal={Psychonomic Bulletin \& Review},
+  year={2020},
+  volume={28},
+  pages={40 - 80},
+  url={https://api.semanticscholar.org/CorpusID:221495897}
+}
+
+@misc{salvatori2024associative,
+      title={Associative Memories in the Feature Space}, 
+      author={Tommaso Salvatori and Beren Millidge and Yuhang Song and Rafal Bogacz and Thomas Lukasiewicz},
+      year={2024},
+      eprint={2402.10814},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+
+@InProceedings{pmlr-v119-koh20a,
+  title = 	 {Concept Bottleneck Models},
+  author =       {Koh, Pang Wei and Nguyen, Thao and Tang, Yew Siang and Mussmann, Stephen and Pierson, Emma and Kim, Been and Liang, Percy},
+  booktitle = 	 {Proceedings of the 37th International Conference on Machine Learning},
+  pages = 	 {5338--5348},
+  year = 	 {2020},
+  editor = 	 {III, Hal Daumé and Singh, Aarti},
+  volume = 	 {119},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {13--18 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v119/koh20a/koh20a.pdf},
+  url = 	 {https://proceedings.mlr.press/v119/koh20a.html},
+  abstract = 	 {We seek to learn models that we can interact with using high-level concepts: if the model did not think there was a bone spur in the x-ray, would it still predict severe arthritis? State-of-the-art models today do not typically support the manipulation of concepts like "the existence of bone spurs", as they are trained end-to-end to go directly from raw input (e.g., pixels) to output (e.g., arthritis severity). We revisit the classic idea of first predicting concepts that are provided at training time, and then using these concepts to predict the label. By construction, we can intervene on these concept bottleneck models by editing their predicted concept values and propagating these changes to the final prediction. On x-ray grading and bird identification, concept bottleneck models achieve competitive accuracy with standard end-to-end models, while enabling interpretation in terms of high-level clinical concepts ("bone spurs") or bird attributes ("wing color"). These models also allow for richer human-model interaction: accuracy improves significantly if we can correct model mistakes on concepts at test time.}
+}
+
+
+@misc{mordatch2018concept,
+      title={Concept Learning with Energy-Based Models}, 
+      author={Igor Mordatch},
+      year={2018},
+      eprint={1811.02486},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+
+@misc{keller2024traveling,
+      title={Traveling Waves Encode the Recent Past and Enhance Sequence Learning}, 
+      author={T. Anderson Keller and Lyle Muller and Terrence Sejnowski and Max Welling},
+      year={2024},
+      eprint={2309.08045},
+      archivePrefix={arXiv},
+      primaryClass={cs.NE}
+}
+
+@misc{chen2019neural,
+      title={Neural Ordinary Differential Equations}, 
+      author={Ricky T. Q. Chen and Yulia Rubanova and Jesse Bettencourt and David Duvenaud},
+      year={2019},
+      eprint={1806.07366},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@inproceedings{V24,
+  title = "Matrix Multiplication in Quadratic Time and Energy? Towards a Fine-Grained Energy-Centric Church-Turing Thesis",
+  author = "Gregory Valiant",
+  booktitle="Innovations in Theoretical Computer Science (ITCS)",
+  year = "2024",
+}
+
+@misc{kıyak2023energy,
+      title={Energy Complexity of Regular Languages}, 
+      author={Fırat Kıyak and A. C. Cem Say},
+      year={2023},
+      eprint={2204.06025},
+      archivePrefix={arXiv},
+      primaryClass={cs.CC}
+}
+
+@article{BUSCH_2007,
+   title={Heisenberg’s uncertainty principle},
+   volume={452},
+   ISSN={0370-1573},
+   url={http://dx.doi.org/10.1016/j.physrep.2007.05.006},
+   DOI={10.1016/j.physrep.2007.05.006},
+   number={6},
+   journal={Physics Reports},
+   publisher={Elsevier BV},
+   author={BUSCH, P and HEINONEN, T and LAHTI, P},
+   year={2007},
+   month=nov, pages={155–176} }
+
+@misc{kendall2020training,
+      title={Training End-to-End Analog Neural Networks with Equilibrium Propagation}, 
+      author={Jack Kendall and Ross Pantone and Kalpana Manickavasagam and Yoshua Bengio and Benjamin Scellier},
+      year={2020},
+      eprint={2006.01981},
+      archivePrefix={arXiv},
+      primaryClass={cs.NE}
+}
+
+@misc{ventura1998quantum,
+      title={Quantum Associative Memory}, 
+      author={Dan Ventura and Tony Martinez},
+      year={1998},
+      eprint={quant-ph/9807053},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph}
+}
+
+@article{Miller_2021,
+   title={A quantum Hopfield associative memory implemented on an actual quantum processor},
+   volume={11},
+   ISSN={2045-2322},
+   url={http://dx.doi.org/10.1038/s41598-021-02866-z},
+   DOI={10.1038/s41598-021-02866-z},
+   number={1},
+   journal={Scientific Reports},
+   publisher={Springer Science and Business Media LLC},
+   author={Miller, Nathan Eli and Mukhopadhyay, Saibal},
+   year={2021},
+   month=dec }
+
+@inproceedings{
+salvatori2021associative,
+title={Associative Memories via Predictive Coding},
+author={Tommaso Salvatori and Yuhang Song and Yujian Hong and Lei Sha and Simon Frieder and Zhenghua Xu and Rafal Bogacz and Thomas Lukasiewicz},
+booktitle={Advances in Neural Information Processing Systems},
+editor={A. Beygelzimer and Y. Dauphin and P. Liang and J. Wortman Vaughan},
+year={2021},
+url={https://openreview.net/forum?id=VuzPO_TZHPc}
+}
+
+@article{Veli_kovi__2023,
+   title={Everything is connected: Graph neural networks},
+   volume={79},
+   ISSN={0959-440X},
+   url={http://dx.doi.org/10.1016/j.sbi.2023.102538},
+   DOI={10.1016/j.sbi.2023.102538},
+   journal={Current Opinion in Structural Biology},
+   publisher={Elsevier BV},
+   author={Veličković, Petar},
+   year={2023},
+   month=apr, pages={102538} }
+
+@inproceedings{
+veličković2018graph,
+title={Graph Attention Networks},
+author={Petar Veličković and Guillem Cucurull and Arantxa Casanova and Adriana Romero and Pietro Liò and Yoshua Bengio},
+booktitle={International Conference on Learning Representations},
+year={2018},
+url={https://openreview.net/forum?id=rJXMpikCZ},
+}
+
+@INPROCEEDINGS{8284494,
+  author={Gupta, Adity and Tyagi, Swati and Panwar, Nupur and Sachdeva, Shelly and Saxena, Upaang},
+  booktitle={2017 International Conference on Computing and Communication Technologies for Smart Nation (IC3TSN)}, 
+  title={NoSQL databases: Critical analysis and comparison}, 
+  year={2017},
+  volume={},
+  number={},
+  pages={293-299},
+  keywords={NoSQL databases;Scalability;Relational databases;Structured Query Language;Servers;Data models;database;NoSQL;comparison;database systems},
+  doi={10.1109/IC3TSN.2017.8284494}}
+
+@inproceedings{
+scellier2023energybased,
+title={Energy-based learning algorithms for analog computing: a comparative study},
+author={Benjamin Scellier and Maxence Ernoult and Jack Kendall and Suhas Kumar},
+booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+year={2023},
+url={https://openreview.net/forum?id=jl5a3t78Uh}
+}
+
+@article{graves2016hybrid,
+  title={Hybrid computing using a neural network with dynamic external memory},
+  author={Graves, Alex and Wayne, Greg and Reynolds, Malcolm and Harley, Tim and Danihelka, Ivo and Grabska-Barwi{\'n}ska, Agnieszka and Colmenarejo, Sergio G{\'o}mez and Grefenstette, Edward and Ramalho, Tiago and Agapiou, John and others},
+  journal={Nature},
+  volume={538},
+  number={7626},
+  pages={471--476},
+  year={2016},
+  publisher={Nature Publishing Group UK London}
+}
+
+@inproceedings{
+iscen2024retrievalenhanced,
+title={Retrieval-Enhanced Contrastive Vision-Text Models},
+author={Ahmet Iscen and Mathilde Caron and Alireza Fathi and Cordelia Schmid},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=b2UlHeyyC0}
+}
+
+@inproceedings{
+abel2023a,
+title={A Definition of Continual Reinforcement Learning},
+author={David Abel and Andre Barreto and Benjamin Van Roy and Doina Precup and Hado van Hasselt and Satinder Singh},
+booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+year={2023},
+url={https://openreview.net/forum?id=ZZS9WEWYbD}
+}
+
+@article{10.1145/2508834.2513149,
+author = {Lameter, Christoph},
+title = {NUMA (Non-Uniform Memory Access): An Overview: NUMA becomes more common because memory controllers get close to execution units on microprocessors.},
+year = {2013},
+issue_date = {July 2013},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {11},
+number = {7},
+issn = {1542-7730},
+url = {https://doi.org/10.1145/2508834.2513149},
+doi = {10.1145/2508834.2513149},
+abstract = {NUMA (non-uniform memory access) is the phenomenon that memory at various points in the address space of a processor have different performance characteristics. At current processor speeds, the signal path length from the processor to memory plays a significant role. Increased signal path length not only increases latency to memory but also quickly becomes a throughput bottleneck if the signal path is shared by multiple processors. The performance differences to memory were noticeable first on large-scale systems where data paths were spanning motherboards or chassis. These systems required modified operating-system kernels with NUMA support that explicitly understood the topological properties of the system’s memory (such as the chassis in which a region of memory was located) in order to avoid excessively long signal path lengths. (Altix and UV, SGI’s large address space systems, are examples. The designers of these products had to modify the Linux kernel to support NUMA; in these machines, processors in multiple chassis are linked via a proprietary interconnect called NUMALINK.)},
+journal = {Queue},
+month = {jul},
+pages = {40–51},
+numpages = {12}
+}
+
+@ARTICLE{710872,
+  author={Jacob, B. and Mudge, T.},
+  journal={IEEE Micro}, 
+  title={Virtual memory in contemporary microprocessors}, 
+  year={1998},
+  volume={18},
+  number={4},
+  pages={60-75},
+  keywords={Microprocessors;Memory management;Clocks;Pipelines;Protection;Hardware;Microarchitecture;Power system management;Resource management;Physics computing},
+  doi={10.1109/40.710872}}
+
+@misc{kraska2018case,
+      title={The Case for Learned Index Structures}, 
+      author={Tim Kraska and Alex Beutel and Ed H. Chi and Jeffrey Dean and Neoklis Polyzotis},
+      year={2018},
+      eprint={1712.01208},
+      archivePrefix={arXiv},
+      primaryClass={cs.DB}
+}
+
+@misc{packer2024memgpt,
+      title={MemGPT: Towards LLMs as Operating Systems}, 
+      author={Charles Packer and Sarah Wooders and Kevin Lin and Vivian Fang and Shishir G. Patil and Ion Stoica and Joseph E. Gonzalez},
+      year={2024},
+      eprint={2310.08560},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+
+@misc{cho2024kvrunahead,
+      title={KV-Runahead: Scalable Causal LLM Inference by Parallel Key-Value Cache Generation}, 
+      author={Minsik Cho and Mohammad Rastegari and Devang Naik},
+      year={2024},
+      eprint={2405.05329},
+      archivePrefix={arXiv},
+      primaryClass={cs.DC}
+}
+
+@misc{dong2024less,
+      title={Get More with LESS: Synthesizing Recurrence with KV Cache Compression for Efficient LLM Inference}, 
+      author={Harry Dong and Xinyu Yang and Zhenyu Zhang and Zhangyang Wang and Yuejie Chi and Beidi Chen},
+      year={2024},
+      eprint={2402.09398},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{Miller1956-MILTMN-2,
+	author = {George A. Miller},
+	doi = {10.1037/h0043158},
+	journal = {Psychological Review},
+	number = {2},
+	pages = {81--97},
+	title = {The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information},
+	volume = {63},
+	year = {1956}
+}
+
+@misc{51142,title	= {Show Your Work: Scratchpads for Intermediate Computation with Language Models},author	= {Maxwell Nye and Anders Andreassen and Guy Gur-Ari and Henryk Witold Michalewski and Jacob Austin and David Bieber and David Martin Dohan and Aitor Lewkowycz and Maarten Paul Bosma and David Luan and Charles Sutton and Augustus Odena},year	= {2021},note	= {https://arxiv.org/abs/2112.00114}}
+
+@inproceedings{
+darcet2024vision,
+title={Vision Transformers Need Registers},
+author={Timoth{\'e}e Darcet and Maxime Oquab and Julien Mairal and Piotr Bojanowski},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=2dnO3LLiJ1}
+}
+
+@misc{munkhdalai2024leave,
+      title={Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention}, 
+      author={Tsendsuren Munkhdalai and Manaal Faruqui and Siddharth Gopal},
+      year={2024},
+      eprint={2404.07143},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{hwang2024transformerfam,
+      title={TransformerFAM: Feedback attention is working memory}, 
+      author={Dongseong Hwang and Weiran Wang and Zhuoyuan Huo and Khe Chai Sim and Pedro Moreno Mengibar},
+      year={2024},
+      eprint={2404.09173},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@inproceedings{10.1145/2591796.2591874,
+author = {Buhrman, Harry and Cleve, Richard and Kouck\'{y}, Michal and Loff, Bruno and Speelman, Florian},
+title = {Computing with a full memory: catalytic space},
+year = {2014},
+isbn = {9781450327107},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2591796.2591874},
+doi = {10.1145/2591796.2591874},
+abstract = {We define the notion of a catalytic-space computation. This is a computation that has a small amount of clean space available and is equipped with additional auxiliary space, with the caveat that the additional space is initially in an arbitrary, possibly incompressible, state and must be returned to this state when the computation is finished. We show that the extra space can be used in a nontrivial way, to compute uniform TC1-circuits with just a logarithmic amount of clean space. The extra space thus works analogously to a catalyst in a chemical reaction. TC1-circuits can compute for example the determinant of a matrix, which is not known to be computable in logspace.In order to obtain our results we study an algebraic model of computation, a variant of straight-line programs. We employ register machines with input registers x1,..., xn and work registers r1,..., rm. The instructions available are of the form ri ← ri±u\texttimes{}v, with u, v registers (distinct from ri) or constants. We wish to compute a function f(x1,..., xn) through a sequence of such instructions. The working registers have some arbitrary initial value ri = τi, and they may be altered throughout the computation, but by the end all registers must be returned to their initial value τi, except for, say, r1 which must hold τ1 + f(x1,..., xn). We show that all of Valiant's class VP, and more, can be computed in this model. This significantly extends the framework and techniques of Ben-Or and Cleve [6].Upper bounding the power of catalytic computation we show that catalytic logspace is contained in ZPP. We further construct an oracle world where catalytic logpace is equal to PSPACE, and show that under the exponential time hypothesis (ETH), SAT can not be computed in catalytic sub-linear space.},
+booktitle = {Proceedings of the Forty-Sixth Annual ACM Symposium on Theory of Computing},
+pages = {857–866},
+numpages = {10},
+keywords = {arithmetic circuits, reversible computation, space complexity, straight-line programs, transparent computation},
+location = {New York, New York},
+series = {STOC '14}
+}
+
+@inproceedings{
+deletang2023neural,
+title={Neural Networks and the Chomsky Hierarchy},
+author={Gregoire Deletang and Anian Ruoss and Jordi Grau-Moya and Tim Genewein and Li Kevin Wenliang and Elliot Catt and Chris Cundy and Marcus Hutter and Shane Legg and Joel Veness and Pedro A Ortega},
+booktitle={The Eleventh International Conference on Learning Representations },
+year={2023},
+url={https://openreview.net/forum?id=WbxHAzkeQcn}
+}
+
+@INPROCEEDINGS{9996760,
+  author={Chen, Xi and Papadimitriou, Christos and Peng, Binghui},
+  booktitle={2022 IEEE 63rd Annual Symposium on Foundations of Computer Science (FOCS)}, 
+  title={Memory Bounds for Continual Learning}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={519-530},
+  keywords={Computer science;Memory management;Machine learning;Picture archiving and communication systems;Complexity theory;Task analysis;Continual learning;lifelong learning;foundation of machine learning},
+  doi={10.1109/FOCS54457.2022.00056}}
+
+@InProceedings{pmlr-v202-giannou23a,
+  title = 	 {Looped Transformers as Programmable Computers},
+  author =       {Giannou, Angeliki and Rajput, Shashank and Sohn, Jy-Yong and Lee, Kangwook and Lee, Jason D. and Papailiopoulos, Dimitris},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  pages = 	 {11398--11442},
+  year = 	 {2023},
+  editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+  volume = 	 {202},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {23--29 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v202/giannou23a/giannou23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v202/giannou23a.html},
+  abstract = 	 {We present a framework for using transformer networks as universal computers by programming them with specific weights and placing them in a loop. Our input sequence acts as a punchcard, consisting of instructions and memory for data read/writes. We demonstrate that a constant number of encoder layers can emulate basic computing blocks, including lexicographic operations, non-linear functions, function calls, program counters, and conditional branches. Using this framework, we emulate a computer using a simple instruction-set architecture, which allows us to map iterative algorithms to programs that can be executed by a constant depth looped transformer network. We show how a single frozen transformer, instructed by its input, can emulate a basic calculator, a basic linear algebra library, and even a full backpropagation, in-context learning algorithm. Our findings reveal the potential of transformer networks as programmable compute units and offer insight into the mechanics of attention.}
+}
+
+@InCollection{Hutter:07aixigentle,
+  author =       "Marcus Hutter",
+  title =        "Universal Algorithmic Intelligence: A Mathematical Top$\rightarrow$Down Approach",
+  _oldtitle =     "A Gentle Introduction to The Universal Algorithmic Agent {AIXI}",
+  booktitle =    "Artificial General Intelligence",
+  editor =       "B. Goertzel and C. Pennachin",
+  publisher =    "Springer",
+  address =       "Berlin",
+  series =       "Cognitive Technologies",
+  _number =       "IDSIA-01-03",
+  _month =       _jan,
+  year =         "2007",
+  pages =        "227--290",
+  isbn =         "3-540-23733-X",
+  url =          "http://www.hutter1.net/ai/aixigentle.htm",
+  http =         "http://arxiv.org/abs/cs.AI/0701125",
+  ftp =          "http://www.idsia.ch/idsiareport/IDSIA-01-03.ps.gz",
+  categories =   "I.2.   [Artificial Intelligence]",
+  keywords =     "Artificial intelligence; algorithmic probability;
+                  sequential decision theory; rational agents;
+                  value function; Solomonoff induction;
+                  Kolmogorov complexity; reinforcement learning;
+                  universal sequence prediction; strategic games;
+                  function minimization; supervised learning.",
+  abstract =     "Decision theory formally solves the problem of rational agents in
+                  uncertain worlds if the true environmental prior probability
+                  distribution is known. Solomonoff's theory of universal induction
+                  formally solves the problem of sequence prediction for unknown
+                  prior distribution. We combine both ideas and get a parameter-free
+                  theory of universal Artificial Intelligence. We give strong
+                  arguments that the resulting AIXI model is the most intelligent
+                  unbiased agent possible. We outline for a number of problem
+                  classes, including sequence prediction, strategic games, function
+                  minimization, reinforcement and supervised learning, how the AIXI
+                  model can formally solve them. The major drawback of the AIXI
+                  model is that it is uncomputable. To overcome this problem, we
+                  construct a modified algorithm AIXI$tl$ that is still
+                  effectively more intelligent than any other time $t$ and length $l$
+                  bounded agent. The computation time of AIXI$tl$ is of the order $t
+                  \cdot 2^l$. Other discussed topics are formal definitions of
+                  intelligence order relations, the horizon problem and relations of
+                  the AIXI theory to other AI approaches.",
+}
+
+@inproceedings{
+ibrayev2023exploring,
+title={Exploring Foveation and Saccade for Improved Weakly-Supervised Localization},
+author={Timur Ibrayev and Manish Nagaraj and Amitangshu Mukherjee and Kaushik Roy},
+booktitle={NeuRIPS 2023 Workshop on Gaze Meets ML},
+year={2023},
+url={https://openreview.net/forum?id=qUfLsi3Vlm}
+}
+
+
+@Article{brainsci12020228,
+AUTHOR = {Du, Bing and Cheng, Xiaomu and Duan, Yiping and Ning, Huansheng},
+TITLE = {fMRI Brain Decoding and Its Applications in Brain–Computer Interface: A Survey},
+JOURNAL = {Brain Sciences},
+VOLUME = {12},
+YEAR = {2022},
+NUMBER = {2},
+ARTICLE-NUMBER = {228},
+URL = {https://www.mdpi.com/2076-3425/12/2/228},
+PubMedID = {35203991},
+ISSN = {2076-3425},
+ABSTRACT = {Brain neural activity decoding is an important branch of neuroscience research and a key technology for the brain–computer interface (BCI). Researchers initially developed simple linear models and machine learning algorithms to classify and recognize brain activities. With the great success of deep learning on image recognition and generation, deep neural networks (DNN) have been engaged in reconstructing visual stimuli from human brain activity via functional magnetic resonance imaging (fMRI). In this paper, we reviewed the brain activity decoding models based on machine learning and deep learning algorithms. Specifically, we focused on current brain activity decoding models with high attention: variational auto-encoder (VAE), generative confrontation network (GAN), and the graph convolutional network (GCN). Furthermore, brain neural-activity-decoding-enabled fMRI-based BCI applications in mental and psychological disease treatment are presented to illustrate the positive correlation between brain decoding and BCI. Finally, existing challenges and future research directions are addressed.},
+DOI = {10.3390/brainsci12020228}
+}
+
+@misc{grunwald2008algorithmic,
+      title={Algorithmic information theory}, 
+      author={Peter D. Grunwald and Paul M. B. Vitanyi},
+      year={2008},
+      eprint={0809.2754},
+      archivePrefix={arXiv},
+      primaryClass={cs.IT}
+}
+
+@article{10.5555/3648699.3648967,
+author = {Dwivedi, Raaz and Singh, Chandan and Yu, Bin and Wainwright, Martin},
+title = {Revisiting minimum description length complexity in overparameterized models},
+year = {2024},
+issue_date = {January 2023},
+publisher = {JMLR.org},
+volume = {24},
+number = {1},
+issn = {1532-4435},
+abstract = {Complexity is a fundamental concept underlying statistical learning theory that aims to inform generalization performance. Parameter count, while successful in low-dimensional settings, is not well-justified for overparameterized settings when the number of parameters is more than the number of training samples. We revisit complexity measures based on Rissanen's principle of minimum description length (MDL) and define a novel MDL-based complexity (MDL-COMP) that remains valid for overparameterized models. MDL-COMP is defined via an optimality criterion over the encodings induced by a good Ridge estimator class. We provide an extensive theoretical characterization of MDL-COMP for linear models and kernel methods and show that it is not just a function of parameter count, but rather a function of the singular values of the design or the kernel matrix and the signal-to-noise ratio. For a linear model with n observations, d parameters, and i.i.d. Gaussian predictors, MDL-COMP scales linearly with d when d < n, but the scaling is exponentially smaller—log d for d > n. For kernel methods, we show that MDL-COMP informs minimax in-sample error, and can decrease as the dimensionality of the input increases. We also prove that MDL-COMP upper bounds the in-sample mean squared error (MSE). Via an array of simulations and real-data experiments, we show that a data-driven Prac-MDL-COMP informs hyper-parameter tuning for optimizing test MSE with ridge regression in limited data settings, sometimes improving upon cross-validation and (always) saving computational costs. Finally, our findings also suggest that the recently observed double decent phenomenons in overparameterized models might be a consequence of the choice of non-ideal estimators.},
+journal = {J. Mach. Learn. Res.},
+month = {mar},
+articleno = {268},
+numpages = {59},
+keywords = {complexity, minimum description length, high-dimensional models, ridge regression, kernel regression}
+}
+
+@article{hamzi2024bridging,
+  title={Bridging Algorithmic Information Theory and Machine Learning: A new approach to kernel learning},
+  author={Hamzi, Boumediene and Hutter, Marcus and Owhadi, Houman},
+  journal={Physica D: Nonlinear Phenomena},
+  pages={134153},
+  year={2024},
+  publisher={Elsevier}
+}
+
+@inproceedings{
+deletang2024language,
+title={Language Modeling Is Compression},
+author={Gregoire Deletang and Anian Ruoss and Paul-Ambroise Duquenne and Elliot Catt and Tim Genewein and Christopher Mattern and Jordi Grau-Moya and Li Kevin Wenliang and Matthew Aitchison and Laurent Orseau and Marcus Hutter and Joel Veness},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=jznbgiynus}
+}
+
+@InProceedings{pmlr-v198-ibarz22a,
+  title = 	 {A Generalist Neural Algorithmic Learner},
+  author =       {Ibarz, Borja and Kurin, Vitaly and Papamakarios, George and Nikiforou, Kyriacos and Bennani, Mehdi and Csord{\'a}s, R{\'o}bert and Dudzik, Andrew Joseph and Bo{\v s}njak, Matko and Vitvitskyi, Alex and Rubanova, Yulia and Deac, Andreea and Bevilacqua, Beatrice and Ganin, Yaroslav and Blundell, Charles and Veli{\v c}kovi{\' c}, Petar},
+  booktitle = 	 {Proceedings of the First Learning on Graphs Conference},
+  pages = 	 {2:1--2:23},
+  year = 	 {2022},
+  editor = 	 {Rieck, Bastian and Pascanu, Razvan},
+  volume = 	 {198},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {09--12 Dec},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v198/ibarz22a/ibarz22a.pdf},
+  url = 	 {https://proceedings.mlr.press/v198/ibarz22a.html},
+  abstract = 	 {The cornerstone of neural algorithmic reasoning is the ability to solve algorithmic tasks, especially in a way that generalises out of distribution. While recent years have seen a surge in methodological improvements in this area, they mostly focused on building specialist models. Specialist models are capable of learning to neurally execute either only one algorithm or a collection of algorithms with identical control-flow backbone. Here, instead, we focus on constructing a generalist neural algorithmic learner—a single graph neural network processor capable of learning to execute a wide range of algorithms, such as sorting, searching, dynamic programming, path-finding and geometry. We leverage the CLRS benchmark to empirically show that, much like recent successes in the domain of perception, generalist algorithmic learners can be built by "incorporating" knowledge. That is, it is possible to effectively learn algorithms in a multi-task manner, so long as we can learn to execute them well in a single-task regime. Motivated by this, we present a series of improvements to the input representation, training regime and processor architecture over CLRS, improving average single-task performance by over 20% from prior art. We then conduct a thorough ablation of multi-task learners leveraging these improvements. Our results demonstrate a generalist learner that effectively incorporates knowledge captured by specialist models.}
+}
+
+@Inbook{Zhang2021,
+author="Zhang, Kaiqing
+and Yang, Zhuoran
+and Ba{\c{s}}ar, Tamer",
+editor="Vamvoudakis, Kyriakos G.
+and Wan, Yan
+and Lewis, Frank L.
+and Cansever, Derya",
+title="Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms",
+bookTitle="Handbook of Reinforcement Learning and Control",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="321--384",
+abstract="Recent years have witnessed significant advances in reinforcement learning (RL), which has registered tremendous success in solving various sequential decision-making problems in machine learning. Most of the successful RL applications, e.g., the games of Go and Poker, robotics, and autonomous driving, involve the participation of more than one single agent, which naturally fall into the realm of multi-agent RL (MARL), a domain with a relatively long history, and has recently re-emerged due to advances in single-agent RL techniques. Though empirically successful, theoretical foundations for MARL are relatively lacking in the literature. In this chapter, we provide a selective overview of MARL, with focus on algorithms backed by theoretical analysis. More specifically, we review the theoretical results of MARL algorithms mainly within two representative frameworks, Markov/stochastic games and extensive-form games, in accordance with the types of tasks they address, i.e., fully cooperative, fully competitive, and a mix of the two. We also introduce several significant but challenging applications of these algorithms. Orthogonal to the existing reviews on MARL, we highlight several new angles and taxonomies of MARL theory, including learning in extensive-form games, decentralized MARL with networked agents, MARL in the mean-field regime, (non-)convergence of policy-based methods for learning in games, etc. Some of the new angles extrapolate from our own research endeavors and interests. Our overall goal with this chapter is, beyond providing an assessment of the current state of the field on the mark, to identify fruitful future research directions on theoretical studies of MARL. We expect this chapter to serve as continuing stimulus for researchers interested in working on this exciting while challenging topic.",
+isbn="978-3-030-60990-0",
+doi="10.1007/978-3-030-60990-0_12",
+url="https://doi.org/10.1007/978-3-030-60990-0_12"
+}
+
+@inproceedings{NIPS2015_7fec306d,
+ author = {Arjevani, Yossi and Shamir, Ohad},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {C. Cortes and N. Lawrence and D. Lee and M. Sugiyama and R. Garnett},
+ pages = {},
+ publisher = {Curran Associates, Inc.},
+ title = {Communication Complexity of Distributed Convex Learning and Optimization},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2015/file/7fec306d1e665bc9c748b5d2b99a6e97-Paper.pdf},
+ volume = {28},
+ year = {2015}
+}
+
+@inproceedings{10.1145/1015330.1015351,
+author = {Conitzer, Vincent and Sandholm, Tuomas},
+title = {Communication complexity as a lower bound for learning in games},
+year = {2004},
+isbn = {1581138385},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1015330.1015351},
+doi = {10.1145/1015330.1015351},
+abstract = {A fast-growing body of research in the AI and machine learning communities addresses learning in games, where there are multiple learners with different interests. This research adds to more established research on learning in games conducted in economics. In part because of a clash of fields, there are widely varying requirements on learning algorithms in this domain. The goal of this paper is to demonstrate how communication complexity can be used as a lower bound on the required learning time or cost. Because this lower bound does not assume any requirements on the learning algorithm, it is universal, applying under any set of requirements on the learning algorithm.We characterize exactly the communication complexity of various solution concepts from game theory, namely Nash equilibrium, iterated dominant strategies (both strict and weak), and backwards induction. This gives the tighest lower bounds on learning in games that can be obtained with this method.},
+booktitle = {Proceedings of the Twenty-First International Conference on Machine Learning},
+pages = {24},
+location = {Banff, Alberta, Canada},
+series = {ICML '04}
+}
+
+
+@InProceedings{pmlr-v99-kane19a,
+  title = 	 {On Communication Complexity of Classification Problems},
+  author =       {Kane, Daniel and Livni, Roi and Moran, Shay and Yehudayoff, Amir},
+  booktitle = 	 {Proceedings of the Thirty-Second Conference on Learning Theory},
+  pages = 	 {1903--1943},
+  year = 	 {2019},
+  editor = 	 {Beygelzimer, Alina and Hsu, Daniel},
+  volume = 	 {99},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Jun},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v99/kane19a/kane19a.pdf},
+  url = 	 {https://proceedings.mlr.press/v99/kane19a.html},
+  abstract = 	 {This work studies distributed learning in the spirit of Yao’s model of communication complexity: consider a two-party setting, where each of the players gets a list of labelled examples and they communicate in order to jointly perform some learning task. To naturally fit into the framework of learning theory, the players can send each other examples (as well as bits) where each example/bit costs one unit of communication.   This enables a uniform treatment of infinite classes such as half-spaces in $\R^d$, which are ubiquitous in machine learning.  We study several fundamental questions in this model.  For example, we provide combinatorial characterizations of the classes that can be learned with efficient communication in the proper-case as well as in the improper-case. These findings imply unconditional separations in this context between various  learning tasks, e.g. realizable versus agnostic learning, proper versus improper learning, etcetera. %They also imply lower bounds that match the performance %of algorithm from previous works. The derivation of these results hinges on a type of decision problems we term “{\it realizability problems}” where the goal is deciding whether a distributed input sample is consistent with an hypothesis from a pre-specified class. From a technical perspective,  the protocols we devise (i.e. the upper bounds) are based on ideas from machine learning and the impossibility results (i.e. the lower bounds) are based on ideas from communication complexity.}
+}
+
+
+@INPROCEEDINGS{4558809,
+  author={Linial, Nati and Shraibman, Adi},
+  booktitle={2008 23rd Annual IEEE Conference on Computational Complexity}, 
+  title={Learning Complexity vs. Communication Complexity}, 
+  year={2008},
+  volume={},
+  number={},
+  pages={53-63},
+  keywords={Complexity theory;Support vector machines;Support vector machine classification;Computer science;Classification algorithms;Computational complexity;Machine learning algorithms;Polynomials;Machine learning;Art;communication complexity;large margin classifiers;discrepancy;rigidity},
+  doi={10.1109/CCC.2008.28}}
+
+@inproceedings{10.1145/800135.804414,
+author = {Yao, Andrew Chi-Chih},
+title = {Some complexity questions related to distributive computing(Preliminary Report)},
+year = {1979},
+isbn = {9781450374385},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/800135.804414},
+doi = {10.1145/800135.804414},
+abstract = {Let M = {0, 1, 2, ..., m—1} , N = {0, 1, 2,..., n—1} , and f:M \texttimes{} N → {0, 1} a Boolean-valued function. We will be interested in the following problem and its related questions. Let i ε M, j ε N be integers known only to two persons P1 and P2, respectively. For P1 and P2 to determine cooperatively the value f(i, j), they send information to each other alternately, one bit at a time, according to some algorithm. The quantity of interest, which measures the information exchange necessary for computing f, is the minimum number of bits exchanged in any algorithm. For example, if f(i, j) = (i + j) mod 2. then 1 bit of information (conveying whether i is odd) sent from P1 to P2 will enable P2 to determine f(i, j), and this is clearly the best possible.The above problem is a variation of a model of Abelson [1] concerning information transfer in distributive computions.},
+booktitle = {Proceedings of the Eleventh Annual ACM Symposium on Theory of Computing},
+pages = {209–213},
+numpages = {5},
+location = {Atlanta, Georgia, USA},
+series = {STOC '79}
+}
+
+@misc{khan2023bayesian,
+      title={The Bayesian Learning Rule}, 
+      author={Mohammad Emtiyaz Khan and Håvard Rue},
+      year={2023},
+      eprint={2107.04562},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML}
+}
+
+@ARTICLE{8827566,
+  author={Matiisen, Tambet and Oliver, Avital and Cohen, Taco and Schulman, John},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Teacher–Student Curriculum Learning}, 
+  year={2020},
+  volume={31},
+  number={9},
+  pages={3732-3740},
+  keywords={Task analysis;Training;Reinforcement learning;Supervised learning;Robots;Navigation;Active learning;curriculum learning;deep reinforcement learning;learning progress},
+  doi={10.1109/TNNLS.2019.2934906}}
+
+@inproceedings{NIPS2012_c399862d,
+ author = {Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {F. Pereira and C.J. Burges and L. Bottou and K.Q. Weinberger},
+ pages = {},
+ publisher = {Curran Associates, Inc.},
+ title = {ImageNet Classification with Deep Convolutional Neural Networks},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf},
+ volume = {25},
+ year = {2012}
+}
+
+@inproceedings{NIPS2017_3f5ee243,
+ author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, \L ukasz and Polosukhin, Illia},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
+ pages = {},
+ publisher = {Curran Associates, Inc.},
+ title = {Attention is All you Need},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf},
+ volume = {30},
+ year = {2017}
+}
+
+@article{Sarker2021DeepLA,
+  title={Deep Learning: A Comprehensive Overview on Techniques, Taxonomy, Applications and Research Directions},
+  author={Iqbal H. Sarker},
+  journal={Sn Computer Science},
+  year={2021},
+  volume={2},
+  url={https://api.semanticscholar.org/CorpusID:237241776}
+}
+
+@inproceedings{10.5555/3020847.3020896,
+author = {Leike, Jan and Hutter, Marcus},
+title = {On the computability of AIXI},
+year = {2015},
+isbn = {9780996643108},
+publisher = {AUAI Press},
+address = {Arlington, Virginia, USA},
+abstract = {How could we solve the machine learning and the artificial intelligence problem if we had infinite computation? Solomonoff induction and the reinforcement learning agent AIXI are proposed answers to this question. Both are known to be incomputable. In this paper, we quantify this using the arithmetical hierarchy, and prove upper and corresponding lower bounds for in-computability. We show that AIXI is not limit computable, thus it cannot be approximated using finite computation. Our main result is a limit-computable e-optimal version of AIXI with infinite horizon that maximizes expected rewards.},
+booktitle = {Proceedings of the Thirty-First Conference on Uncertainty in Artificial Intelligence},
+pages = {464–473},
+numpages = {10},
+keywords = {universal turing machine, solomonoff induction, general reinforcement learning, computability, complexity, arithmetical hierarchy, AIXI},
+location = {Amsterdam, Netherlands},
+series = {UAI'15}
+}
+
+@inproceedings{
+gu2022efficiently,
+title={Efficiently Modeling Long Sequences with Structured State Spaces},
+author={Albert Gu and Karan Goel and Christopher Re},
+booktitle={International Conference on Learning Representations},
+year={2022},
+url={https://openreview.net/forum?id=uYLFoz1vlAC}
+}
+
+@inproceedings{
+wang2023statespace,
+title={State-space models with layer-wise nonlinearity are universal approximators with exponential decaying memory},
+author={Shida Wang and Beichen Xue},
+booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+year={2023},
+url={https://openreview.net/forum?id=i0OmcF14Kf}
+}
+
+@article{10.1145/3591280,
+author = {Li, Ziyang and Huang, Jiani and Naik, Mayur},
+title = {Scallop: A Language for Neurosymbolic Programming},
+year = {2023},
+issue_date = {June 2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {7},
+number = {PLDI},
+url = {https://doi.org/10.1145/3591280},
+doi = {10.1145/3591280},
+abstract = {We present Scallop, a language which combines the benefits of deep learning and logical reasoning. Scallop enables users to write a wide range of neurosymbolic applications and train them in a data- and compute-efficient manner. It achieves these goals through three key features: 1) a flexible symbolic representation that is based on the relational data model; 2) a declarative logic programming language that is based on Datalog and supports recursion, aggregation, and negation; and 3) a framework for automatic and efficient differentiable reasoning that is based on the theory of provenance semirings. We evaluate Scallop on a suite of eight neurosymbolic applications from the literature. Our evaluation demonstrates that Scallop is capable of expressing algorithmic reasoning in diverse and challenging AI tasks, provides a succinct interface for machine learning programmers to integrate logical domain knowledge, and yields solutions that are comparable or superior to state-of-the-art models in terms of accuracy. Furthermore, Scallop's solutions outperform these models in aspects such as runtime and data efficiency, interpretability, and generalizability.},
+journal = {Proc. ACM Program. Lang.},
+month = {jun},
+articleno = {166},
+numpages = {25},
+keywords = {Neurosymbolic methods, Differentiable reasoning}
+}
+
+@misc{parisotto2016neurosymbolic,
+      title={Neuro-Symbolic Program Synthesis}, 
+      author={Emilio Parisotto and Abdel-rahman Mohamed and Rishabh Singh and Lihong Li and Dengyong Zhou and Pushmeet Kohli},
+      year={2016},
+      eprint={1611.01855},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+
+@book{Godel1931-GDEOFU,
+	address = {New York, NY, USA},
+	author = {Kurt G\"{o}del},
+	editor = {},
+	publisher = {Basic Books},
+	title = {On Formally Undecidable Propositions of Principia Mathematica and Related Systems},
+	year = {1931}
+}
+
+@Inbook{Schmidhuber2007,
+author="Schmidhuber, J{\"u}rgen",
+editor="Goertzel, Ben
+and Pennachin, Cassio",
+title="G{\"o}del Machines: Fully Self-referential Optimal Universal Self-improvers",
+bookTitle="Artificial General Intelligence",
+year="2007",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="199--226",
+abstract="We present the first class of mathematically rigorous, general, fully self-referential, self-improving, optimally efficient problem solvers. Inspired by Kurt G{\"o}del's celebrated self-referential formulas (1931), such a problem solver rewrites any part of its own code as soon as it has found a proof that the rewrite is useful, where the problem-dependent utility function and the hardware and the entire initial code are described by axioms encoded in an initial proof searcher which is also part of the initial code. The searcher systematically and efficiently tests computable proof techniques (programs whose outputs are proofs) until it finds a provably useful, computable self-rewrite. We show that such a self-rewrite is globally optimal---no local maxima!---since the code first had to prove that it is not useful to continue the proof search for alternative self-rewrites. Unlike previous non-self-referential methods based on hardwired proof searchers, ours not only boasts an optimal order of complexity but can optimally reduce any slowdowns hidden by the O()-notation, provided the utility of such speed-ups is provable at all.",
+isbn="978-3-540-68677-4",
+doi="10.1007/978-3-540-68677-4_7",
+url="https://doi.org/10.1007/978-3-540-68677-4_7"
+}
+
+@inproceedings{NEURIPS2018_3b712de4,
+ author = {Blier, L\'{e}onard and Ollivier, Yann},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {S. Bengio and H. Wallach and H. Larochelle and K. Grauman and N. Cesa-Bianchi and R. Garnett},
+ pages = {},
+ publisher = {Curran Associates, Inc.},
+ title = {The Description Length of Deep Learning models},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2018/file/3b712de48137572f3849aabd5666a4e3-Paper.pdf},
+ volume = {31},
+ year = {2018}
+}
+
+@InProceedings{pmlr-v202-karuvally23a,
+  title = 	 {General Sequential Episodic Memory Model},
+  author =       {Karuvally, Arjun and Sejnowski, Terrence and Siegelmann, Hava T},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  pages = 	 {15900--15910},
+  year = 	 {2023},
+  editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+  volume = 	 {202},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {23--29 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v202/karuvally23a/karuvally23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v202/karuvally23a.html},
+  abstract = 	 {The state-of-the-art memory model is the General Associative Memory Model, a generalization of the classical Hopfield network. Like its ancestor, the general associative memory has a well-defined state-dependant energy surface, and its memories correlate with its fixed points. This is unlike human memories, which are commonly sequential rather than separated fixed points. In this paper, we introduce a class of General Sequential Episodic Memory Models (GSEMM) that, in the adiabatic limit, exhibit a dynamic energy surface, leading to a series of meta-stable states capable of encoding memory sequences. A multiple-timescale architecture enables the dynamic nature of the energy surface with newly introduced asymmetric synapses and signal propagation delays. We demonstrate its dense capacity under polynomial activation functions. GSEMM combines separate memories, short and long sequential episodic memories, under a unified theoretical framework, demonstrating how energy-based memory modeling can provide richer, human-like episodes.}
+}
+
+@inproceedings{
+wang2023augmenting,
+title={Augmenting Language Models with Long-Term Memory},
+author={Weizhi Wang and Li Dong and Hao Cheng and Xiaodong Liu and Xifeng Yan and Jianfeng Gao and Furu Wei},
+booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+year={2023},
+url={https://openreview.net/forum?id=BryMFPQ4L6}
+}
+
+@misc{das2024larimar,
+      title={Larimar: Large Language Models with Episodic Memory Control}, 
+      author={Payel Das and Subhajit Chaudhury and Elliot Nelson and Igor Melnyk and Sarath Swaminathan and Sihui Dai and Aurélie Lozano and Georgios Kollias and Vijil Chenthamarakshan and Jiří and Navrátil and Soham Dan and Pin-Yu Chen},
+      year={2024},
+      eprint={2403.11901},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@inproceedings{NIPS2017_59dfa2df,
+ author = {Nickel, Maximillian and Kiela, Douwe},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
+ pages = {},
+ publisher = {Curran Associates, Inc.},
+ title = {Poincar\'{e} Embeddings for Learning Hierarchical Representations},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2017/file/59dfa2df42d9e3d41f5b02bfc32229dd-Paper.pdf},
+ volume = {30},
+ year = {2017}
+}
+
+@inproceedings{10.5555/3618408.3618484,
+author = {Barbiero, Pietro and Ciravegna, Gabriele and Giannini, Francesco and Zarlenga, Mateo Espinosa and Magister, Lucie Charlotte and Tonda, Alberto and Li\'{o}, Pietro and Precioso, Frederic and Jamnik, Mateja and Marra, Giuseppe},
+title = {Interpretable neural-symbolic concept reasoning},
+year = {2023},
+publisher = {JMLR.org},
+abstract = {Deep learning methods are highly accurate, yet their opaque decision process prevents them from earning full human trust. Concept-based models aim to address this issue by learning tasks based on a set of human-understandable concepts. However, state-of-the-art concept-based models rely on high-dimensional concept embedding representations which lack a clear semantic meaning, thus questioning the interpretability of their decision process. To overcome this limitation, we propose the Deep Concept Reasoner (DCR), the first interpretable concept-based model that builds upon concept embeddings. In DCR, neural networks do not make task predictions directly, but they build syntactic rule structures using concept embeddings. DCR then executes these rules on meaningful concept truth degrees to provide a final interpretable and semantically-consistent prediction in a differentiable manner. Our experiments show that DCR: (i) improves up to +25\% w.r.t. state-of-the-art interpretable concept-based models on challenging benchmarks (ii) discovers meaningful logic rules matching known ground truths even in the absence of concept supervision during training, and (iii), facilitates the generation of counterfactual examples providing the learnt rules as guidance.},
+booktitle = {Proceedings of the 40th International Conference on Machine Learning},
+articleno = {76},
+numpages = {25},
+location = {<conf-loc>, <city>Honolulu</city>, <state>Hawaii</state>, <country>USA</country>, </conf-loc>},
+series = {ICML'23}
+}
+
+@inproceedings{
+barcelo2024logical,
+title={Logical Languages Accepted by Transformer Encoders with Hard Attention},
+author={Pablo Barcelo and Alexander Kozachinskiy and Anthony Widjaja Lin and Vladimir Podolskii},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=gbrHZq07mq}
+}
+
+@inproceedings{Clote2002BooleanFA,
+  title={Boolean Functions and Computation Models},
+  author={Peter Clote and Evangelos Kranakis},
+  booktitle={Texts in Theoretical Computer Science. An EATCS Series},
+  year={2002},
+  url={https://api.semanticscholar.org/CorpusID:20780483}
+}
+
+@inproceedings{
+choksi2021predify,
+title={Predify: Augmenting deep neural networks with brain-inspired predictive coding dynamics},
+author={Bhavin Choksi and Milad Mozafari and Callum Biggs O'May and B. ADOR and Andrea Alamia and Rufin VanRullen},
+booktitle={Advances in Neural Information Processing Systems},
+editor={A. Beygelzimer and Y. Dauphin and P. Liang and J. Wortman Vaughan},
+year={2021},
+url={https://openreview.net/forum?id=v4vjMuXF-B}
+}
+
+@misc{salvatori2023braininspired,
+      title={Brain-Inspired Computational Intelligence via Predictive Coding}, 
+      author={Tommaso Salvatori and Ankur Mali and Christopher L. Buckley and Thomas Lukasiewicz and Rajesh P. N. Rao and Karl Friston and Alexander Ororbia},
+      year={2023},
+      eprint={2308.07870},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+
+@book{10.5555/1540612,
+author = {Arora, Sanjeev and Barak, Boaz},
+title = {Computational Complexity: A Modern Approach},
+year = {2009},
+isbn = {0521424267},
+publisher = {Cambridge University Press},
+address = {USA},
+edition = {1st},
+abstract = {This beginning graduate textbook describes both recent achievements and classical results of computational complexity theory. Requiring essentially no background apart from mathematical maturity, the book can be used as a reference for self-study for anyone interested in complexity, including physicists, mathematicians, and other scientists, as well as a textbook for a variety of courses and seminars. More than 300 exercises are included with a selected hint set.}
+}
+
+@misc{liu2024kan,
+      title={KAN: Kolmogorov-Arnold Networks}, 
+      author={Ziming Liu and Yixuan Wang and Sachin Vaidya and Fabian Ruehle and James Halverson and Marin Soljačić and Thomas Y. Hou and Max Tegmark},
+      year={2024},
+      eprint={2404.19756},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@inproceedings{boix2023can,
+  title={When can transformers reason with abstract symbols?},
+  author={Boix-Adser{\`a}, Enric and Saremi, Omid and Abbe, Emmanuel and Bengio, Samy and Littwin, Etai and Susskind, Joshua M},
+  booktitle={The Twelfth International Conference on Learning Representations},
+  year={2023}
+}
+
+@inproceedings{
+nickl2023the,
+title={The Memory-Perturbation Equation: Understanding Model's Sensitivity to Data},
+author={Peter Nickl and Lu Xu and Dharmesh Tailor and Thomas M{\"o}llenhoff and Mohammad Emtiyaz Khan},
+booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+year={2023},
+url={https://openreview.net/forum?id=dqS1GuoG2V}
+}
+
+@article{10.5555/3648699.3648980,
+author = {Khan, Mohammad Emtiyaz and Rue, H\r{a}vard},
+title = {The Bayesian learning rule},
+year = {2024},
+issue_date = {January 2023},
+publisher = {JMLR.org},
+volume = {24},
+number = {1},
+issn = {1532-4435},
+abstract = {We show that many machine-learning algorithms are specific instances of a single algorithm called the Bayesian learning rule. The rule, derived from Bayesian principles, yields a wide-range of algorithms from fields such as optimization, deep learning, and graphical models. This includes classical algorithms such as ridge regression, Newton's method, and Kalman filter, as well as modern deep-learning algorithms such as stochastic-gradient descent, RMSprop, and Dropout. The key idea in deriving such algorithms is to approximate the posterior using candidate distributions estimated by using natural gradients. Different candidate distributions result in different algorithms and further approximations to natural gradients give rise to variants of those algorithms. Our work not only unifies, generalizes, and improves existing algorithms, but also helps us design new ones.},
+journal = {J. Mach. Learn. Res.},
+month = {mar},
+articleno = {281},
+numpages = {46},
+keywords = {Bayesian methods, optimization, deep learning, graphical models}
+}
+
+@inproceedings{
+daheim2024model,
+title={Model Merging by Uncertainty-Based Gradient Matching},
+author={Nico Daheim and Thomas M{\"o}llenhoff and Edoardo Ponti and Iryna Gurevych and Mohammad Emtiyaz Khan},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=D7KJmfEDQP}
+}
+
+@article{RAISSI2019686,
+title = {Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations},
+journal = {Journal of Computational Physics},
+volume = {378},
+pages = {686-707},
+year = {2019},
+issn = {0021-9991},
+doi = {https://doi.org/10.1016/j.jcp.2018.10.045},
+url = {https://www.sciencedirect.com/science/article/pii/S0021999118307125},
+author = {M. Raissi and P. Perdikaris and G.E. Karniadakis},
+keywords = {Data-driven scientific computing, Machine learning, Predictive modeling, Runge–Kutta methods, Nonlinear dynamics},
+abstract = {We introduce physics-informed neural networks – neural networks that are trained to solve supervised learning tasks while respecting any given laws of physics described by general nonlinear partial differential equations. In this work, we present our developments in the context of solving two main classes of problems: data-driven solution and data-driven discovery of partial differential equations. Depending on the nature and arrangement of the available data, we devise two distinct types of algorithms, namely continuous time and discrete time models. The first type of models forms a new family of data-efficient spatio-temporal function approximators, while the latter type allows the use of arbitrarily accurate implicit Runge–Kutta time stepping schemes with unlimited number of stages. The effectiveness of the proposed framework is demonstrated through a collection of classical problems in fluids, quantum mechanics, reaction–diffusion systems, and the propagation of nonlinear shallow-water waves.}
+}
+
+@InProceedings{pmlr-v202-xu23m,
+  title = 	 {{PFGM}++: Unlocking the Potential of Physics-Inspired Generative Models},
+  author =       {Xu, Yilun and Liu, Ziming and Tian, Yonglong and Tong, Shangyuan and Tegmark, Max and Jaakkola, Tommi},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  pages = 	 {38566--38591},
+  year = 	 {2023},
+  editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+  volume = 	 {202},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {23--29 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v202/xu23m/xu23m.pdf},
+  url = 	 {https://proceedings.mlr.press/v202/xu23m.html},
+  abstract = 	 {We introduce a new family of physics-inspired generative models termed PFGM++ that unifies diffusion models and Poisson Flow Generative Models (PFGM). These models realize generative trajectories for N dimensional data by embedding paths in N+D dimensional space while still controlling the progression with a simple scalar norm of the D additional variables. The new models reduce to PFGM when D=1 and to diffusion models when D$\to\infty$. The flexibility of choosing D allows us to trade off robustness against rigidity as increasing D results in more concentrated coupling between the data and the additional variable norms. We dispense with the biased large batch field targets used in PFGM and instead provide an unbiased perturbation-based objective similar to diffusion models. To explore different choices of D, we provide a direct alignment method for transferring well-tuned hyperparameters from diffusion models (D$\to\infty$) to any finite D values. Our experiments show that models with finite D can be superior to previous state-of-the-art diffusion models on CIFAR-10/FFHQ 64$\times$64 datasets/LSUN Churches 256$\times$256, with median Ds. In class-conditional setting, D=2048 yields current state-of-the-art FID of 1.74 on CIFAR-10 without additional training. Furthermore, we demonstrate that models with smaller $D$ exhibit improved robustness against modeling errors. Code is available at https://github.com/Newbeeer/pfgmpp}
+}
+
+@ARTICLE{5392446,
+  author={Landauer, R.},
+  journal={IBM Journal of Research and Development}, 
+  title={Irreversibility and Heat Generation in the Computing Process}, 
+  year={1961},
+  volume={5},
+  number={3},
+  pages={183-191},
+  keywords={},
+  doi={10.1147/rd.53.0183}}
+
+@inproceedings{
+sekhari2021remember,
+title={Remember What You Want to Forget: Algorithms for Machine Unlearning},
+author={Ayush Sekhari and Jayadev Acharya and Gautam Kamath and Ananda Theertha Suresh},
+booktitle={Advances in Neural Information Processing Systems},
+editor={A. Beygelzimer and Y. Dauphin and P. Liang and J. Wortman Vaughan},
+year={2021},
+url={https://openreview.net/forum?id=pvCLqcsLJ1N}
+}
+
+@article{JMLR:v22:17-298,
+  author  = {Steve Hanneke},
+  title   = {Learning Whenever Learning is Possible: Universal Learning under General Stochastic Processes},
+  journal = {Journal of Machine Learning Research},
+  year    = {2021},
+  volume  = {22},
+  number  = {130},
+  pages   = {1--116},
+  url     = {http://jmlr.org/papers/v22/17-298.html}
+}
+
+@InProceedings{pmlr-v195-mutreja23a,
+  title = 	 {PAC Verification of Statistical Algorithms},
+  author =       {Mutreja, Saachi and Shafer, Jonathan},
+  booktitle = 	 {Proceedings of Thirty Sixth Conference on Learning Theory},
+  pages = 	 {5021--5043},
+  year = 	 {2023},
+  editor = 	 {Neu, Gergely and Rosasco, Lorenzo},
+  volume = 	 {195},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {12--15 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v195/mutreja23a/mutreja23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v195/mutreja23a.html},
+  abstract = 	 {Goldwasser et al. (2021) recently proposed the setting of PAC verification, where a hypothesis (machine learning model) that purportedly satisfies the agnostic PAC learning objective is verified using an interactive proof. In this paper we develop this notion further in a number of ways. First, we prove a lower bound of $\Omega(\sqrt{d}/\varepsilon^2)$ i.i.d. samples for PAC verification of hypothesis classes of VC dimension $d$. Second, we present a protocol for PAC verification of unions of intervals over $\mathbb{R}$ that improves upon their proposed protocol for that task, and matches our lower bound’s dependence on $d$. Third, we introduce a natural generalization of their definition to verification of general statistical algorithms, which is applicable to a wider variety of settings beyond agnostic PAC learning. Showcasing our proposed definition, our final result is a protocol for the verification of statistical query algorithms that satisfy a combinatorial constraint on their queries.}
+}
+
+@inproceedings{
+tarzanagh2023maxmargin,
+title={Max-Margin Token Selection in Attention Mechanism},
+author={Davoud Ataee Tarzanagh and Yingcong Li and Xuechen Zhang and Samet Oymak},
+booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+year={2023},
+url={https://openreview.net/forum?id=WXc8O8ghLH}
+}
+
+@misc{tarzanagh2024transformers,
+      title={Transformers as Support Vector Machines}, 
+      author={Davoud Ataee Tarzanagh and Yingcong Li and Christos Thrampoulidis and Samet Oymak},
+      year={2024},
+      eprint={2308.16898},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{vasudeva2024implicit,
+      title={Implicit Bias and Fast Convergence Rates for Self-attention}, 
+      author={Bhavya Vasudeva and Puneesh Deora and Christos Thrampoulidis},
+      year={2024},
+      eprint={2402.05738},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+} 
+
+@InProceedings{pmlr-v162-edelman22a,
+  title = 	 {Inductive Biases and Variable Creation in Self-Attention Mechanisms},
+  author =       {Edelman, Benjamin L and Goel, Surbhi and Kakade, Sham and Zhang, Cyril},
+  booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
+  pages = 	 {5793--5831},
+  year = 	 {2022},
+  editor = 	 {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
+  volume = 	 {162},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {17--23 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v162/edelman22a/edelman22a.pdf},
+  url = 	 {https://proceedings.mlr.press/v162/edelman22a.html},
+  abstract = 	 {Self-attention, an architectural motif designed to model long-range interactions in sequential data, has driven numerous recent breakthroughs in natural language processing and beyond. This work provides a theoretical analysis of the inductive biases of self-attention modules. Our focus is to rigorously establish which functions and long-range dependencies self-attention blocks prefer to represent. Our main result shows that bounded-norm Transformer networks "create sparse variables": a single self-attention head can represent a sparse function of the input sequence, with sample complexity scaling only logarithmically with the context length. To support our analysis, we present synthetic experiments to probe the sample complexity of learning sparse Boolean functions with Transformers.}
+}
+
+@article{
+deora2024on,
+title={On the Optimization and Generalization of Multi-head Attention},
+author={Puneesh Deora and Rouzbeh Ghaderi and Hossein Taheri and Christos Thrampoulidis},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2024},
+url={https://openreview.net/forum?id=wTGjn7JvYK},
+note={}
+}
+
+@misc{chen2024training,
+      title={Training Dynamics of Multi-Head Softmax Attention for In-Context Learning: Emergence, Convergence, and Optimality}, 
+      author={Siyu Chen and Heejune Sheen and Tianhao Wang and Zhuoran Yang},
+      year={2024},
+      eprint={2402.19442},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{lavie2024understanding,
+      title={Towards Understanding Inductive Bias in Transformers: A View From Infinity}, 
+      author={Itay Lavie and Guy Gur-Ari and Zohar Ringel},
+      year={2024},
+      eprint={2402.05173},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{alweiss2021improved,
+      title={Improved bounds for the sunflower lemma}, 
+      author={Ryan Alweiss and Shachar Lovett and Kewen Wu and Jiapeng Zhang},
+      year={2021},
+      eprint={1908.08483},
+      archivePrefix={arXiv},
+      primaryClass={math.CO}
+}
+
+@misc{chase2024dual,
+      title={Dual VC Dimension Obstructs Sample Compression by Embeddings}, 
+      author={Zachary Chase and Bogdan Chornomaz and Steve Hanneke and Shay Moran and Amir Yehudayoff},
+      year={2024},
+      eprint={2405.17120},
+      archivePrefix={arXiv},
+      primaryClass={cs.DM}
+}
+
+@misc{cryptoeprint:2021/915,
+      author = {Gal Arnon and Alessandro Chiesa and Eylon Yogev},
+      title = {A PCP Theorem for Interactive Proofs and Applications},
+      howpublished = {Cryptology ePrint Archive, Paper 2021/915},
+      year = {2021},
+      note = {\url{https://eprint.iacr.org/2021/915}},
+      url = {https://eprint.iacr.org/2021/915}
+}
+
+@InProceedings{goldwasser_et_al:LIPIcs.ITCS.2021.41,
+  author =	{Goldwasser, Shafi and Rothblum, Guy N. and Shafer, Jonathan and Yehudayoff, Amir},
+  title =	{{Interactive Proofs for Verifying Machine Learning}},
+  booktitle =	{12th Innovations in Theoretical Computer Science Conference (ITCS 2021)},
+  pages =	{41:1--41:19},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN =	{978-3-95977-177-1},
+  ISSN =	{1868-8969},
+  year =	{2021},
+  volume =	{185},
+  editor =	{Lee, James R.},
+  publisher =	{Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2021.41},
+  URN =		{urn:nbn:de:0030-drops-135806},
+  doi =		{10.4230/LIPIcs.ITCS.2021.41},
+  annote =	{Keywords: PAC learning, Fourier analysis of boolean functions, Complexity gaps, Complexity lower bounds, Goldreich-Levin algorithm, Kushilevitz-Mansour algorithm, Distribution testing}
+}
+
+@inproceedings{
+ramsauer2021hopfield,
+title={Hopfield Networks is All You Need},
+author={Hubert Ramsauer and Bernhard Sch{\"a}fl and Johannes Lehner and Philipp Seidl and Michael Widrich and Lukas Gruber and Markus Holzleitner and Thomas Adler and David Kreil and Michael K Kopp and G{\"u}nter Klambauer and Johannes Brandstetter and Sepp Hochreiter},
+booktitle={International Conference on Learning Representations},
+year={2021},
+url={https://openreview.net/forum?id=tL89RnzIiCd}
+}
+
+@inproceedings{
+oikarinen2023labelfree,
+title={Label-free Concept Bottleneck Models},
+author={Tuomas Oikarinen and Subhro Das and Lam M. Nguyen and Tsui-Wei Weng},
+booktitle={The Eleventh International Conference on Learning Representations },
+year={2023},
+url={https://openreview.net/forum?id=FlCg47MNvBA}
+}
+
+@misc{yang2023causalvae,
+      title={CausalVAE: Structured Causal Disentanglement in Variational Autoencoder}, 
+      author={Mengyue Yang and Furui Liu and Zhitang Chen and Xinwei Shen and Jianye Hao and Jun Wang},
+      year={2023},
+      eprint={2004.08697},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@inproceedings{
+kocaoglu2018causalgan,
+title={Causal{GAN}: Learning Causal Implicit Generative Models with Adversarial Training},
+author={Murat Kocaoglu and Christopher Snyder and Alexandros G. Dimakis and Sriram Vishwanath},
+booktitle={International Conference on Learning Representations},
+year={2018},
+url={https://openreview.net/forum?id=BJE-4xW0W},
+}
+
+@InProceedings{pmlr-v238-manupriya24a,
+  title = 	 { Consistent Optimal Transport with Empirical Conditional Measures },
+  author =       {Manupriya, Piyushi and Das, Rachit K. and Biswas, Sayantan and N Jagarlapudi, SakethaNath},
+  booktitle = 	 {Proceedings of The 27th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {3646--3654},
+  year = 	 {2024},
+  editor = 	 {Dasgupta, Sanjoy and Mandt, Stephan and Li, Yingzhen},
+  volume = 	 {238},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {02--04 May},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v238/manupriya24a/manupriya24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v238/manupriya24a.html},
+  abstract = 	 { Given samples from two joint distributions, we consider the problem of Optimal Transportation (OT) between them when conditioned on a common variable. We focus on the general setting where the conditioned variable may be continuous, and the marginals of this variable in the two joint distributions may not be the same. In such settings, standard OT variants cannot be employed, and novel estimation techniques are necessary. Since the main challenge is that the conditional distributions are not explicitly available, the key idea in our OT formulation is to employ kernelized-least-squares terms computed over the joint samples, which implicitly match the transport plan’s marginals with the empirical conditionals. Under mild conditions, we prove that our estimated transport plans, as a function of the conditioned variable, are asymptotically optimal. For finite samples, we show that the deviation in terms of our regularized objective is bounded by $O(m^{-1/4})$, where $m$ is the number of samples. We also discuss how the conditional transport plan could be modelled using explicit probabilistic models as well as using implicit generative ones. We empirically verify the consistency of our estimator on synthetic datasets, where the optimal plan is analytically known. When employed in applications like prompt learning for few-shot classification and conditional-generation in the context of predicting cell responses to treatment, our methodology improves upon state-of-the-art methods. }
+}
+
+@InProceedings{pmlr-v151-wang22a,
+  title = 	 { Physics Informed Deep Kernel Learning },
+  author =       {Wang, Zheng and Xing, Wei and Kirby, Robert and Zhe, Shandian},
+  booktitle = 	 {Proceedings of The 25th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {1206--1218},
+  year = 	 {2022},
+  editor = 	 {Camps-Valls, Gustau and Ruiz, Francisco J. R. and Valera, Isabel},
+  volume = 	 {151},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {28--30 Mar},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v151/wang22a/wang22a.pdf},
+  url = 	 {https://proceedings.mlr.press/v151/wang22a.html},
+  abstract = 	 { Deep kernel learning is a promising combination of deep neural networks and nonparametric function estimation. However, as a data driven approach, the performance of deep kernel learning can still be restricted by scarce or insufficient data, especially in extrapolation tasks. To address these limitations, we propose Physics Informed Deep Kernel Learning (PI-DKL) that exploits physics knowledge represented by differential equations with latent sources. Specifically, we use the posterior function sample of the Gaussian process as the surrogate for the solution of the differential equation, and construct a generative component to integrate the equation in a principled Bayesian hybrid framework. For efficient and effective inference, we marginalize out the latent variables in the joint probability and derive a collapsed model evidence lower bound (ELBO), based on which we develop a stochastic model estimation algorithm. Our ELBO can be viewed as a nice, interpretable posterior regularization objective. On synthetic datasets and real-world applications, we show the advantage of our approach in both prediction accuracy and uncertainty quantification. The code is available at https://github.com/GregDobby/PIDKL. }
+}
+
+@misc{doumèche2024physicsinformed,
+      title={Physics-informed machine learning as a kernel method}, 
+      author={Nathan Doumèche and Francis Bach and Claire Boyer and Gérard Biau},
+      year={2024},
+      eprint={2402.07514},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+
+@misc{garg2020quantum,
+      title={No quantum speedup over gradient descent for non-smooth convex optimization}, 
+      author={Ankit Garg and Robin Kothari and Praneeth Netrapalli and Suhail Sherif},
+      year={2020},
+      eprint={2010.01801},
+      archivePrefix={arXiv},
+      primaryClass={cs.DS}
+}
+
+@misc{abbas2023quantum,
+      title={Quantum Optimization: Potential, Challenges, and the Path Forward}, 
+      author={Amira Abbas and Andris Ambainis and Brandon Augustino and Andreas Bärtschi and Harry Buhrman and Carleton Coffrin and Giorgio Cortiana and Vedran Dunjko and Daniel J. Egger and Bruce G. Elmegreen and Nicola Franco and Filippo Fratini and Bryce Fuller and Julien Gacon and Constantin Gonciulea and Sander Gribling and Swati Gupta and Stuart Hadfield and Raoul Heese and Gerhard Kircher and Thomas Kleinert and Thorsten Koch and Georgios Korpas and Steve Lenk and Jakub Marecek and Vanio Markov and Guglielmo Mazzola and Stefano Mensa and Naeimeh Mohseni and Giacomo Nannicini and Corey O'Meara and Elena Peña Tapia and Sebastian Pokutta and Manuel Proissl and Patrick Rebentrost and Emre Sahin and Benjamin C. B. Symons and Sabine Tornow and Victor Valls and Stefan Woerner and Mira L. Wolf-Bauwens and Jon Yard and Sheir Yarkoni and Dirk Zechiel and Sergiy Zhuk and Christa Zoufal},
+      year={2023},
+      eprint={2312.02279},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph}
+}
+
+@inproceedings{
+garg2021nearoptimal,
+title={Near-Optimal Lower Bounds For Convex Optimization For All Orders of Smoothness},
+author={Ankit Garg and Robin Kothari and Praneeth Netrapalli and Suhail Sherif},
+booktitle={Advances in Neural Information Processing Systems},
+editor={A. Beygelzimer and Y. Dauphin and P. Liang and J. Wortman Vaughan},
+year={2021},
+url={https://openreview.net/forum?id=prVxS4W_ds}
+}
+
+@article{cerezo2021variational,
+  title={Variational quantum algorithms},
+  author={Cerezo, Marco and Arrasmith, Andrew and Babbush, Ryan and Benjamin, Simon C and Endo, Suguru and Fujii, Keisuke and McClean, Jarrod R and Mitarai, Kosuke and Yuan, Xiao and Cincio, Lukasz and others},
+  journal={Nature Reviews Physics},
+  volume={3},
+  number={9},
+  pages={625--644},
+  year={2021},
+  publisher={Nature Publishing Group UK London}
+}
+
+@article{farhi2014quantum,
+  title={A quantum approximate optimization algorithm},
+  author={Farhi, Edward and Goldstone, Jeffrey and Gutmann, Sam},
+  journal={arXiv preprint arXiv:1411.4028},
+  year={2014}
+}
+
+@article{
+zimmer2023differentiable,
+title={Differentiable Logic Machines},
+author={Matthieu Zimmer and Xuening Feng and Claire Glanois and Zhaohui JIANG and Jianyi Zhang and Paul Weng and Dong Li and Jianye HAO and Wulong Liu},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2023},
+url={https://openreview.net/forum?id=mXfkKtu5JA},
+note={}
+}
+
+@inproceedings{10.5555/3294771.3294992,
+author = {Yang, Fan and Yang, Zhilin and Cohen, William W.},
+title = {Differentiable learning of logical rules for knowledge base reasoning},
+year = {2017},
+isbn = {9781510860964},
+publisher = {Curran Associates Inc.},
+address = {Red Hook, NY, USA},
+abstract = {We study the problem of learning probabilistic first-order logical rules for knowledge base reasoning. This learning problem is difficult because it requires learning the parameters in a continuous space as well as the structure in a discrete space. We propose a framework, Neural Logic Programming, that combines the parameter and structure learning of first-order logical rules in an end-to-end differentiable model. This approach is inspired by a recently-developed differentiable logic called TensorLog [5], where inference tasks can be compiled into sequences of differentiable operations. We design a neural controller system that learns to compose these operations. Empirically, our method outperforms prior work on multiple knowledge base benchmark datasets, including Freebase and WikiMovies.},
+booktitle = {Proceedings of the 31st International Conference on Neural Information Processing Systems},
+pages = {2316–2325},
+numpages = {10},
+location = {Long Beach, California, USA},
+series = {NIPS'17}
+}
+
+@inproceedings{NEURIPS2022_0d3496dd,
+ author = {Petersen, Felix and Borgelt, Christian and Kuehne, Hilde and Deussen, Oliver},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
+ pages = {2006--2018},
+ publisher = {Curran Associates, Inc.},
+ title = {Deep Differentiable Logic Gate Networks},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/0d3496dd0cec77a999c98d35003203ca-Paper-Conference.pdf},
+ volume = {35},
+ year = {2022}
+}
+
+@inproceedings{ijcai2022p417,
+  title     = {Learning First-Order Rules with Differentiable Logic Program Semantics},
+  author    = {Gao, Kun and Inoue, Katsumi and Cao, Yongzhi and Wang, Hanpin},
+  booktitle = {Proceedings of the Thirty-First International Joint Conference on
+               Artificial Intelligence, {IJCAI-22}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Lud De Raedt},
+  pages     = {3008--3014},
+  year      = {2022},
+  month     = {7},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2022/417},
+  url       = {https://doi.org/10.24963/ijcai.2022/417},
+}
+
+@inproceedings{
+xu2024logicmp,
+title={Logic{MP}: A Neuro-symbolic Approach for Encoding First-order Logic Constraints},
+author={Weidi Xu and Jingwei Wang and Lele Xie and Jianshan He and Hongting Zhou and Taifeng Wang and Xiaopei Wan and Jingdong Chen and Chao Qu and Wei Chu},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=BLGQ3oqldb}
+}
+
+@article{MARDER20121,
+title = {Neuromodulation of Neuronal Circuits: Back to the Future},
+journal = {Neuron},
+volume = {76},
+number = {1},
+pages = {1-11},
+year = {2012},
+issn = {0896-6273},
+doi = {https://doi.org/10.1016/j.neuron.2012.09.010},
+url = {https://www.sciencedirect.com/science/article/pii/S0896627312008173},
+author = {Eve Marder},
+abstract = {All nervous systems are subject to neuromodulation. Neuromodulators can be delivered as local hormones, as cotransmitters in projection neurons, and through the general circulation. Because neuromodulators can transform the intrinsic firing properties of circuit neurons and alter effective synaptic strength, neuromodulatory substances reconfigure neuronal circuits, often massively altering their output. Thus, the anatomical connectome provides a minimal structure and the neuromodulatory environment constructs and specifies the functional circuits that give rise to behavior.}
+}
+
+@article{shiebler2021category,
+  title={Category theory in machine learning},
+  author={Shiebler, Dan and Gavranovi{\'c}, Bruno and Wilson, Paul},
+  journal={arXiv preprint arXiv:2106.07032},
+  year={2021}
+}
+
+@misc{bereska2024mechanistic,
+      title={Mechanistic Interpretability for AI Safety -- A Review}, 
+      author={Leonard Bereska and Efstratios Gavves},
+      year={2024},
+      eprint={2404.14082},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+
+@INPROCEEDINGS{8354201,
+  author={Chattopadhay, Aditya and Sarkar, Anirban and Howlader, Prantik and Balasubramanian, Vineeth N},
+  booktitle={2018 IEEE Winter Conference on Applications of Computer Vision (WACV)}, 
+  title={Grad-CAM++: Generalized Gradient-Based Visual Explanations for Deep Convolutional Networks}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={839-847},
+  keywords={Visualization;Heating systems;Neurons;Machine learning;Predictive models;Mathematical model},
+  doi={10.1109/WACV.2018.00097}}
+
+@misc{s2024tandem,
+      title={Tandem Transformers for Inference Efficient LLMs}, 
+      author={Aishwarya P S and Pranav Ajit Nair and Yashas Samaga and Toby Boyd and Sanjiv Kumar and Prateek Jain and Praneeth Netrapalli},
+      year={2024},
+      eprint={2402.08644},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+
+@misc{dehghani2019universal,
+      title={Universal Transformers}, 
+      author={Mostafa Dehghani and Stephan Gouws and Oriol Vinyals and Jakob Uszkoreit and Łukasz Kaiser},
+      year={2019},
+      eprint={1807.03819},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{khalighinejad2023approximating,
+      title={Approximating CKY with Transformers}, 
+      author={Ghazal Khalighinejad and Ollie Liu and Sam Wiseman},
+      year={2023},
+      eprint={2305.02386},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@book{10.5555/3002498,
+author = {Alon, Noga and Spencer, Joel H.},
+title = {The Probabilistic Method},
+year = {2016},
+isbn = {1119061954},
+publisher = {Wiley Publishing},
+edition = {4th},
+abstract = {Praise for the Third Edition Researchers of any kind of extremal combinatorics or theoretical computer science will welcome the new edition of this book. - MAA Reviews Maintaining a standard of excellence that establishes The Probabilistic Method as the leading reference on probabilistic methods in combinatorics, the Fourth Edition continues to feature a clear writing style, illustrative examples, and illuminating exercises. The new edition includes numerous updates to reflect the most recent developments and advances in discrete mathematics and the connections to other areas in mathematics, theoretical computer science, and statistical physics. Emphasizing the methodology and techniques that enable problem-solving, The Probabilistic Method, Fourth Edition begins with a description of tools applied to probabilistic arguments, including basic techniques that use expectation and variance as well as the more advanced applications of martingales and correlation inequalities. The authors explore where probabilistic techniques have been applied successfully and also examine topical coverage such as discrepancy and random graphs, circuit complexity, computational geometry, and derandomization of randomized algorithms. Written by two well-known authorities in the field, the Fourth Edition features: Additional exercises throughout with hints and solutions to select problems in an appendix to help readers obtain a deeper understanding of the best methods and techniques New coverage on topics such as the Local Lemma, Six Standard Deviations result in Discrepancy Theory, Property B, and graph limits Updated sections to reflect major developments on the newest topics, discussions of the hypergraph container method, and many new references and improved results The Probabilistic Method, Fourth Edition is an ideal textbook for upper-undergraduate and graduate-level students majoring in mathematics, computer science, operations research, and statistics. The Fourth Edition is also an excellent reference for researchers and combinatorists who use probabilistic methods, discrete mathematics, and number theory. Noga Alon, PhD, is Baumritter Professor of Mathematics and Computer Science at Tel Aviv University. He is a member of the Israel National Academy of Sciences and Academia Europaea. A coeditor of the journal Random Structures and Algorithms, Dr. Alon is the recipient of the Polya Prize, The Gdel Prize, The Israel Prize, and the EMET Prize. Joel H. Spencer, PhD, is Professor of Mathematics and Computer Science at the Courant Institute of New York University. He is the cofounder and coeditor of the journal Random Structures and Algorithms and is a Sloane Foundation Fellow. Dr. Spencer has written more than 200 published articles and is the coauthor of Ramsey Theory, Second Edition, also published by Wiley.}
+}
+
+@article{Liu_2024,
+   title={Towards provably efficient quantum algorithms for large-scale machine-learning models},
+   volume={15},
+   ISSN={2041-1723},
+   url={http://dx.doi.org/10.1038/s41467-023-43957-x},
+   DOI={10.1038/s41467-023-43957-x},
+   number={1},
+   journal={Nature Communications},
+   publisher={Springer Science and Business Media LLC},
+   author={Liu, Junyu and Liu, Minzhao and Liu, Jin-Peng and Ye, Ziyu and Wang, Yunfei and Alexeev, Yuri and Eisert, Jens and Jiang, Liang},
+   year={2024},
+   month=jan }
+
+@inproceedings{NEURIPS2023_58168e8a,
+ author = {Frieder, Simon and Pinchetti, Luca and  and Griffiths, Ryan-Rhys and Salvatori, Tommaso and Lukasiewicz, Thomas and Petersen, Philipp and Berner, Julius},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+ pages = {27699--27744},
+ publisher = {Curran Associates, Inc.},
+ title = {Mathematical Capabilities of ChatGPT},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/58168e8a92994655d6da3939e7cc0918-Paper-Datasets_and_Benchmarks.pdf},
+ volume = {36},
+ year = {2023}
+}
+
+@inproceedings{
+lewkowycz2022solving,
+title={Solving Quantitative Reasoning Problems with Language Models},
+author={Aitor Lewkowycz and Anders Johan Andreassen and David Dohan and Ethan Dyer and Henryk Michalewski and Vinay Venkatesh Ramasesh and Ambrose Slone and Cem Anil and Imanol Schlag and Theo Gutman-Solo and Yuhuai Wu and Behnam Neyshabur and Guy Gur-Ari and Vedant Misra},
+booktitle={Advances in Neural Information Processing Systems},
+editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+year={2022},
+url={https://openreview.net/forum?id=IFXTZERXdM7}
+}
+
+@inproceedings{NEURIPS2023_44414694,
+ author = {Yang, Kaiyu and Swope, Aidan and Gu, Alex and Chalamala, Rahul and Song, Peiyang and Yu, Shixing and Godil, Saad and Prenger, Ryan J and Anandkumar, Animashree},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+ pages = {21573--21612},
+ publisher = {Curran Associates, Inc.},
+ title = {LeanDojo: Theorem Proving with Retrieval-Augmented Language Models},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/4441469427094f8873d0fecb0c4e1cee-Paper-Datasets_and_Benchmarks.pdf},
+ volume = {36},
+ year = {2023}
+}
+
+@article{53097,title	= {Solving olympiad geometry without human demonstrations},author	= {Trieu Trinh and Yuhuai Tony Wu and Quoc Le and He He and Thang Luong},year	= {2024},URL	= {https://www.nature.com/articles/s41586-023-06747-5},journal	= {Nature},pages	= {476-482},volume	= {625}}
+
+@ARTICLE{6448961,
+  author={Rauch, Ken},
+  journal={IEEE Spectrum}, 
+  title={Math chips: How they work: Augmenting microprocessors, they speed up math operations while giving systems designers a variety of performance, cost, and integration options}, 
+  year={1987},
+  volume={24},
+  number={7},
+  pages={25-30},
+  keywords={Program processors;Coprocessors;Standards;Workstations;Process control},
+  doi={10.1109/MSPEC.1987.6448961}}
+
+@misc{cotumaccio2024myhillnerode,
+      title={A Myhill-Nerode Theorem for Generalized Automata, with Applications to Pattern Matching and Compression}, 
+      author={Nicola Cotumaccio},
+      year={2024},
+      eprint={2302.06506},
+      archivePrefix={arXiv},
+      primaryClass={cs.FL}
+}
+
+@article{JMLR:v16:marusic15a,
+  author  = {Ines Marusic and James Worrell},
+  title   = {Complexity of Equivalence and Learning for Multiplicity Tree Automata},
+  journal = {Journal of Machine Learning Research},
+  year    = {2015},
+  volume  = {16},
+  number  = {76},
+  pages   = {2465--2500},
+  url     = {http://jmlr.org/papers/v16/marusic15a.html}
+}
+
+@inproceedings{
+liu2023transformers,
+title={Transformers Learn Shortcuts to Automata},
+author={Bingbin Liu and Jordan T. Ash and Surbhi Goel and Akshay Krishnamurthy and Cyril Zhang},
+booktitle={The Eleventh International Conference on Learning Representations },
+year={2023},
+url={https://openreview.net/forum?id=De4FYqjFueZ}
+}
+
+@article{murty2023pushdown,
+  title={Pushdown layers: Encoding recursive structure in transformer language models},
+  author={Murty, Shikhar and Sharma, Pratyusha and Andreas, Jacob and Manning, Christopher D},
+  journal={arXiv preprint arXiv:2310.19089},
+  year={2023}
+}
+
+@inproceedings{
+lipman2023flow,
+title={Flow Matching for Generative Modeling},
+author={Yaron Lipman and Ricky T. Q. Chen and Heli Ben-Hamu and Maximilian Nickel and Matthew Le},
+booktitle={The Eleventh International Conference on Learning Representations },
+year={2023},
+url={https://openreview.net/forum?id=PqvMRDCJT9t}
+}
+
+@article{poinsot2024learning,
+  title={Learning Structural Causal Models through Deep Generative Models: Methods, Guarantees, and Challenges},
+  author={Poinsot, Audrey and Leite, Alessandro and Chesneau, Nicolas and S{\'e}bag, Mich{\`e}le and Schoenauer, Marc},
+  journal={arXiv preprint arXiv:2405.05025},
+  year={2024}
+}
+
+@misc{xia2022causalneural,
+      title={The Causal-Neural Connection: Expressiveness, Learnability, and Inference}, 
+      author={Kevin Xia and Kai-Zhan Lee and Yoshua Bengio and Elias Bareinboim},
+      year={2022},
+      eprint={2107.00793},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{wagenmaker2023instanceoptimality,
+      title={Instance-Optimality in Interactive Decision Making: Toward a Non-Asymptotic Theory}, 
+      author={Andrew Wagenmaker and Dylan J. Foster},
+      year={2023},
+      eprint={2304.12466},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{
+salvatori2024predictive,
+title={Predictive Coding beyond Correlations},
+author={Tommaso Salvatori and Luca Pinchetti and Amine M'Charrak and Beren Millidge and Thomas Lukasiewicz},
+year={2024},
+url={https://openreview.net/forum?id=X0fDR10B7c}
+}
+
+@article{10.1145/3639048,
+author = {Gao, Chen and Zheng, Yu and Wang, Wenjie and Feng, Fuli and He, Xiangnan and Li, Yong},
+title = {Causal Inference in Recommender Systems: A Survey and Future Directions},
+year = {2024},
+issue_date = {July 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {42},
+number = {4},
+issn = {1046-8188},
+url = {https://doi.org/10.1145/3639048},
+doi = {10.1145/3639048},
+abstract = {Recommender systems have become crucial in information filtering nowadays. Existing recommender systems extract user preferences based on the correlation in data, such as behavioral correlation in collaborative filtering, feature-feature, or feature-behavior correlation in click-through rate prediction. However, unfortunately, the real world is driven by causality, not just correlation, and correlation does not imply causation. For instance, recommender systems might recommend a battery charger to a user after buying a phone, where the latter can serve as the cause of the former; such a causal relation cannot be reversed. Recently, to address this, researchers in recommender systems have begun utilizing causal inference to extract causality, thereby enhancing the recommender system. In this survey, we offer a comprehensive review of the literature on causal inference-based recommendation. Initially, we introduce the fundamental concepts of both recommender system and causal inference as the foundation for subsequent content. We then highlight the typical issues faced by non-causality recommender system. Following that, we thoroughly review the existing work on causal inference-based recommender systems, based on a taxonomy of three-aspect challenges that causal inference can address. Finally, we discuss the open problems in this critical research area and suggest important potential future works.},
+journal = {ACM Trans. Inf. Syst.},
+month = {feb},
+articleno = {88},
+numpages = {32},
+keywords = {Recommender systems; causal inference; information retrieval}
+}
+
+@article{
+doi:10.1073/pnas.2001893117,
+author = {Christos H. Papadimitriou  and Santosh S. Vempala  and Daniel Mitropolsky  and Michael Collins  and Wolfgang Maass },
+title = {Brain computation by assemblies of neurons},
+journal = {Proceedings of the National Academy of Sciences},
+volume = {117},
+number = {25},
+pages = {14464-14472},
+year = {2020},
+doi = {10.1073/pnas.2001893117},
+URL = {https://www.pnas.org/doi/abs/10.1073/pnas.2001893117},
+eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.2001893117},
+abstract = {Assemblies are large populations of neurons believed to imprint memories, concepts, words, and other cognitive information. We identify a repertoire of operations on assemblies. These operations correspond to properties of assemblies observed in experiments, and can be shown, analytically and through simulations, to be realizable by generic, randomly connected populations of neurons with Hebbian plasticity and inhibition. Assemblies and their operations constitute a computational model of the brain which we call the Assembly Calculus, occupying a level of detail intermediate between the level of spiking neurons and synapses and that of the whole brain. The resulting computational system can be shown, under assumptions, to be, in principle, capable of carrying out arbitrary computations. We hypothesize that something like it may underlie higher human cognitive functions such as reasoning, planning, and language. In particular, we propose a plausible brain architecture based on assemblies for implementing the syntactic processing of language in cortex, which is consistent with recent experimental results.}}
+
+@inproceedings{
+iatropoulos2022kernel,
+title={Kernel Memory Networks: A Unifying Framework for Memory Modeling},
+author={Georgios Iatropoulos and Johanni Brea and Wulfram Gerstner},
+booktitle={Advances in Neural Information Processing Systems},
+editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+year={2022},
+url={https://openreview.net/forum?id=px87A_nzK-T}
+}
+
+@inproceedings{NIPS2016_eaae339c,
+ author = {Krotov, Dmitry and Hopfield, John J.},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {D. Lee and M. Sugiyama and U. Luxburg and I. Guyon and R. Garnett},
+ pages = {},
+ publisher = {Curran Associates, Inc.},
+ title = {Dense Associative Memory for Pattern Recognition},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2016/file/eaae339c4d89fc102edd9dbdb6a28915-Paper.pdf},
+ volume = {29},
+ year = {2016}
+}
+
+@inproceedings{
+pham2022generative,
+title={Generative Pseudo-Inverse Memory},
+author={Kha Pham and Hung Le and Man Ngo and Truyen Tran and Bao Ho and Svetha Venkatesh},
+booktitle={International Conference on Learning Representations},
+year={2022},
+url={https://openreview.net/forum?id=Harn4_EZBw}
+}
+
+@INPROCEEDINGS{6912180,
+  author={Liu, Dapeng and Cui, Zengdi and Xu, Shaochun and Liu, Huafu},
+  booktitle={2014 IEEE/ACIS 13th International Conference on Computer and Information Science (ICIS)}, 
+  title={An empirical study on the performance of hash table}, 
+  year={2014},
+  volume={},
+  number={},
+  pages={477-484},
+  keywords={Probes;Time measurement;Computer science;Educational institutions;Advertising;Arrays;Reliability;hash table;open addressing;close addressing;linear probe;partition;nosql;online advertising},
+  doi={10.1109/ICIS.2014.6912180}}
+
+@incollection{STERIADE2005101,
+title = {Chapter 9 - Brain Electrical Activity and Sensory Processing during Waking and Sleep States},
+editor = {Meir H. Kryger and Thomas Roth and William C. Dement},
+booktitle = {Principles and Practice of Sleep Medicine (Fourth Edition)},
+publisher = {W.B. Saunders},
+edition = {Fourth Edition},
+address = {Philadelphia},
+pages = {101-119},
+year = {2005},
+isbn = {978-0-7216-0797-9},
+doi = {https://doi.org/10.1016/B0-72-160797-7/50016-1},
+url = {https://www.sciencedirect.com/science/article/pii/B0721607977500161},
+author = {Mircea Steriade}
+}
+
+@article{balachandran2024low,
+  title={Low-rank matrices, tournaments, and symmetric designs},
+  author={Balachandran, Niranjan and Sankarnarayanan, Brahadeesh},
+  journal={arXiv preprint arXiv:2401.14015},
+  year={2024}
+}
+
+@article{balachandran2022hierarchically,
+  title={On hierarchically closed fractional intersecting families},
+  author={Balachandran, Niranjan and Bhattacharya, Srimanta and Kher, Krishn Vishwas and Mathew, Rogers and Sankarnarayanan, Brahadeesh},
+  journal={arXiv preprint arXiv:2211.02540},
+  year={2022}
+}
+
+@misc{balachandran2018fractional,
+      title={Fractional L-intersecting families}, 
+      author={Niranjan Balachandran and Rogers Mathew and Tapas Kumar Mishra},
+      year={2018},
+      eprint={1803.03954},
+      archivePrefix={arXiv},
+      primaryClass={math.CO}
+}
+
+@misc{nayak2023qpac,
+      title={Q-PAC: Automated Detection of Quantum Bug-Fix Patterns}, 
+      author={Pranav K. Nayak and Krishn V. Kher and M. Bharat Chandra and M. V. Panduranga Rao and Lei Zhang},
+      year={2023},
+      eprint={2311.17705},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
+}
+
+@inproceedings{Kher23,
+  title={Automatic Diagnosis of Quantum Software Bug-Fix Motifs
+},
+  author={Kher, Krishn V and Chandra, M Bharat and Joshi, Ishan and Zhang, Lei and Rao, M V Panduranga},
+  booktitle={Proc. of the 35th International Conference on Software Engineering and Knowledge Engineering (SEKE23)},
+  pages1={341--350},
+  year={2023}
 }
