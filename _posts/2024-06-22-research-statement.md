@@ -7,8 +7,21 @@ tags: research-statement, research-proposal
 categories: official
 giscus_comments: false
 related_posts: false
-related_publications: true
 featured: true
+
+authors:
+  - name: Albert Einstein
+    url: "https://en.wikipedia.org/wiki/Albert_Einstein"
+    affiliations:
+      name: IAS, Princeton
+  - name: Boris Podolsky
+    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
+    affiliations:
+      name: IAS, Princeton
+  - name: Nathan Rosen
+    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
+    affiliations:
+      name: IAS, Princeton 
 bibliography: 2018-12-22-distill.bib
 ---
 
